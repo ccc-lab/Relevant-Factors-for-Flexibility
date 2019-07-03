@@ -11,11 +11,11 @@ The Autotyp Register maps LIDS to language names and other data such as region a
 
 library(dplyr)
 
-autotyp_register <- read.csv('autotyp-data-master/data/Register.csv', na.strings='') %>% 
+autotyp_register <- read.csv('autotyp-data-master/data/Register.csv', na.strings='') %>%
   rename(LanguageAutotyp = Language) %>%
   select(LID, ISO639.3, Glottocode, SubBranch, Area, LanguageAutotyp)
 
-wals_register <- read.csv('autotyp-data-master/data/WALS_register.csv', na.strings='') %>% 
+wals_register <- read.csv('autotyp-data-master/data/WALS_register.csv', na.strings='') %>%
   rename(LanguageWALS = name, WALSCode = wals_code, Glottocode = glottocode) %>%
   select(WALSCode, Glottocode)
 
@@ -59,11 +59,11 @@ Finally, we also want the WALS constituent order data for comparison with Autoty
 
 ```{r}
 
-wals_clause_order <- read.csv('autotyp-data-master/data/WALS_clause_order.csv', na.strings='') %>% 
+wals_clause_order <- read.csv('autotyp-data-master/data/WALS_clause_order.csv', na.strings='') %>%
   rename(WALSOrder = Name, WALSCode = ID, LanguageWALS = Language,  WALSReference = References) %>%
   select(WALSCode, WALSOrder, LanguageWALS, WALSReference)
 
-wals_two_orders <- read.csv('autotyp-data-master/data/WALS_two_orders.csv', na.strings='') %>% 
+wals_two_orders <- read.csv('autotyp-data-master/data/WALS_two_orders.csv', na.strings='') %>%
   rename(WALSTwoOrder = Name, WALSCode = ID, LanguageWALS = Language,  WALSReference = References) %>%
   select(WALSCode, WALSTwoOrder)
 
@@ -93,7 +93,7 @@ flexibility_data_out <- flexibility_data %>% select(LID, WALSCode, Glottocode, I
 
 flexibility_data_out
 
-write.csv(flexibility_data_out, file="flexibility_data",
+write.csv(flexibility_data_out, file="flexibility_data.csv",
           row.names=FALSE)
 ```
 
