@@ -46,11 +46,21 @@ has_cases <- function(x){
   return(1);
 }
 
+has_prodrop <- function(x){
+  code <- toString(x)
+  if(is.na(x)){ return(NA); }
+  if(code == 'Obligatory pronouns in subject position'){ return(0)}
+  if(code == 'Subject pronouns in different position'){ return(0)}
+  return(1);
+}
+
 wals_dependent_head <- read.csv('../autotyp-data-master/data/WALS_marking.csv', na.strings='') %>% rename(WALSCode = ID, Marking = Name) %>% select(WALSCode, Marking)
 
 wals_person_marking <- read.csv('../autotyp-data-master/data/WALS_person_marking.csv', na.strings='') %>% rename(WALSCode = ID, VerbPersonMarking = Name) %>% select(WALSCode, VerbPersonMarking)
 
 wals_has_case <- read.csv('../autotyp-data-master/data/WALS_cases.csv', na.strings='') %>% rename(WALSCode = ID, NumCases = Name) %>% select(WALSCode, NumCases) %>% mutate(CaseMarking = mapply(function(x) has_cases(x), NumCases))
+
+wals_has_prodrop <- read.csv('../autotyp-data-master/data/WALS_prodrop.csv', na.strings='') %>% rename(WALSCode = ID, ProExp = Name) %>% select(WALSCode, ProExp) %>% mutate(HasProdrop = mapply(function(x) has_prodrop(x), ProExp))
 
 ```
 
@@ -80,6 +90,7 @@ factors <- merge(wals_has_case, factors, 'WALSCode')
 flexibility_data <- merge(register, autotyp_clause_order, 'LID')
 flexibility_data <- merge(wals_clause_order, flexibility_data, 'WALSCode', all = TRUE)
 flexibility_data <- merge(wals_two_orders, flexibility_data, 'WALSCode', all = TRUE)
+flexibility_data <- merge(wals_has_prodrop, flexibility_data, 'WALSCode', all = TRUE)
 flexibility_data <- merge(factors, flexibility_data, 'WALSCode', all.y = TRUE)
 
 ```
@@ -88,7 +99,7 @@ Finally, output the data to a file.
 
 ```{r}
 
-flexibility_data_out <- flexibility_data %>% select(LID, WALSCode, Glottocode, ISO639.3, LanguageAutotyp, LanguageWALS, Area, SubBranch, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible, Marking, CaseMarking, VerbPersonMarking) %>% group_by(LID)
+flexibility_data_out <- flexibility_data %>% select(LID, WALSCode, Glottocode, ISO639.3, LanguageAutotyp, LanguageWALS, Area, SubBranch, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible, Marking, CaseMarking, VerbPersonMarking, HasProdrop) %>% group_by(LID)
 
 write.csv(flexibility_data_out, file="flexibility_data.csv",
           row.names=FALSE)
@@ -125,13 +136,10 @@ write.csv(discrepancies, file="discrepancies.csv",
 
 # These are just being saved in case we need them
 
-autotyp_np_structure <- read.csv('../autotyp-data-master/data/NP_Structure.csv', na.strings='') %>%
-  select(LID, NPMarking.binned4, NPWordOrder)  %>% filter(!is.na(NPMarking.binned4) & !is.na(NPWordOrder))
+#autotyp_np_structure <- read.csv('../autotyp-data-master/data/NP_Structure.csv', na.strings='') %>% select(LID, NPMarking.binned4, NPWordOrder)  %>% filter(!is.na(NPMarking.binned4) & !is.na(NPWordOrder))
 
-
-bib <- read.csv('autotyp-data-master/data/Bibliography.csv', na.strings='') %>%
-  select(LID, Author, Year)
-bib2 <- aggregate(Author~LID, bib, paste, collapse="//")
-bib2 <- merge(aggregate(Year~LID, bib, paste, collapse="//"), bib2, 'LID')
+#bib <- read.csv('../autotyp-data-master/data/Bibliography.csv', na.strings='') %>% select(LID, Author, Year)
+#bib2 <- aggregate(Author~LID, bib, paste, collapse="//")
+#bib2 <- merge(aggregate(Year~LID, bib, paste, collapse="//"), bib2, 'LID')
 
 ```
