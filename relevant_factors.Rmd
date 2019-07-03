@@ -11,11 +11,11 @@ The Autotyp Register maps LIDS to language names and other data such as region a
 
 library(dplyr)
 
-autotyp_register <- read.csv('autotyp-data-master/data/Register.csv', na.strings='') %>%
+autotyp_register <- read.csv('../autotyp-data-master/data/Register.csv', na.strings='') %>% 
   rename(LanguageAutotyp = Language) %>%
   select(LID, ISO639.3, Glottocode, SubBranch, Area, LanguageAutotyp)
 
-wals_register <- read.csv('autotyp-data-master/data/WALS_register.csv', na.strings='') %>%
+wals_register <- read.csv('../autotyp-data-master/data/WALS_register.csv', na.strings='') %>% 
   rename(LanguageWALS = name, WALSCode = wals_code, Glottocode = glottocode) %>%
   select(WALSCode, Glottocode)
 
@@ -27,7 +27,7 @@ Clause_word_order_adjusted.csv contains the original Autotyp data for clausal co
 
 ```{r}
 
-autotyp_clause_order <- read.csv('autotyp-data-master/data/Clause_word_order_adjusted.csv', na.strings='') %>%
+autotyp_clause_order <- read.csv('../autotyp-data-master/data/Clause_word_order_adjusted.csv', na.strings='') %>%
   select(LID, WordOrderSPVBasicLex, WordOrderSPVLexFlexible)
 
 ```
@@ -40,18 +40,17 @@ Regarding cases, languages are mapped to 1 or 0 depending on their coding in WAL
 
 has_cases <- function(x){
   code <- toString(x)
+  if(is.na(x)){ return(NA); }
   if(code == 'No morphological case-marking'){ return(0)}
-  else if(code == 'Exclusively borderline case-marking'){ return(0)}
-  else return(1);
+  if(code == 'Exclusively borderline case-marking'){ return(0)}
+  return(1);
 }
 
-wals_dependent_head <- read.csv('autotyp-data-master/data/WALS_marking.csv', na.strings='') %>% rename(WALSCode = ID, Marking = Name) %>% select(WALSCode, Marking)
+wals_dependent_head <- read.csv('../autotyp-data-master/data/WALS_marking.csv', na.strings='') %>% rename(WALSCode = ID, Marking = Name) %>% select(WALSCode, Marking)
 
-wals_person_marking <- read.csv('autotyp-data-master/data/WALS_person_marking.csv', na.strings='') %>% rename(WALSCode = ID, VerbPersonMarking = Name) %>% select(WALSCode, VerbPersonMarking)
+wals_person_marking <- read.csv('../autotyp-data-master/data/WALS_person_marking.csv', na.strings='') %>% rename(WALSCode = ID, VerbPersonMarking = Name) %>% select(WALSCode, VerbPersonMarking)
 
-wals_has_case <- read.csv('autotyp-data-master/data/WALS_cases.csv', na.strings='') %>% rename(WALSCode = ID, NumCases = Name) %>% select(WALSCode, NumCases) %>% mutate(NumCases = has_cases(NumCases)) %>% rename(CaseMarking = NumCases)
-
-wals_has_case
+wals_has_case <- read.csv('../autotyp-data-master/data/WALS_cases.csv', na.strings='') %>% rename(WALSCode = ID, NumCases = Name) %>% select(WALSCode, NumCases) %>% mutate(CaseMarking = mapply(function(x) has_cases(x), NumCases))
 
 ```
 
@@ -59,11 +58,11 @@ Finally, we also want the WALS constituent order data for comparison with Autoty
 
 ```{r}
 
-wals_clause_order <- read.csv('autotyp-data-master/data/WALS_clause_order.csv', na.strings='') %>%
+wals_clause_order <- read.csv('../autotyp-data-master/data/WALS_clause_order.csv', na.strings='') %>% 
   rename(WALSOrder = Name, WALSCode = ID, LanguageWALS = Language,  WALSReference = References) %>%
   select(WALSCode, WALSOrder, LanguageWALS, WALSReference)
 
-wals_two_orders <- read.csv('autotyp-data-master/data/WALS_two_orders.csv', na.strings='') %>%
+wals_two_orders <- read.csv('../autotyp-data-master/data/WALS_two_orders.csv', na.strings='') %>% 
   rename(WALSTwoOrder = Name, WALSCode = ID, LanguageWALS = Language,  WALSReference = References) %>%
   select(WALSCode, WALSTwoOrder)
 
@@ -91,8 +90,6 @@ Finally, output the data to a file.
 
 flexibility_data_out <- flexibility_data %>% select(LID, WALSCode, Glottocode, ISO639.3, LanguageAutotyp, LanguageWALS, Area, SubBranch, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible, Marking, CaseMarking, VerbPersonMarking) %>% group_by(LID)
 
-flexibility_data_out
-
 write.csv(flexibility_data_out, file="flexibility_data.csv",
           row.names=FALSE)
 ```
@@ -117,8 +114,6 @@ To find discrepancies, we filter based on (1) Whether or not "WordOrderSPVBasicL
 
 discrepancies <- flexibility_data_full %>% select(LID, ISO639.3, WALSCode, Glottocode, LanguageAutotyp, LanguageWALS, Area, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible) %>% filter((as.character(WordOrderSPVBasicLex) != as.character(WALSOrder)) & (WALSOrder != "No dominant order" | WordOrderSPVBasicLex != "free"))
 
-discrepancies
-
 write.csv(discrepancies, file="discrepancies.csv",
           row.names=FALSE)
 
@@ -130,7 +125,7 @@ write.csv(discrepancies, file="discrepancies.csv",
 
 # These are just being saved in case we need them
 
-autotyp_np_structure <- read.csv('autotyp-data-master/data/NP_Structure.csv', na.strings='') %>%
+autotyp_np_structure <- read.csv('../autotyp-data-master/data/NP_Structure.csv', na.strings='') %>%
   select(LID, NPMarking.binned4, NPWordOrder)  %>% filter(!is.na(NPMarking.binned4) & !is.na(NPWordOrder))
 
 
