@@ -13,7 +13,7 @@ library(dplyr)
 
 autotyp_register <- read.csv('../autotyp-data-master/data/Register.csv', na.strings='') %>% 
   rename(LanguageAutotyp = Language) %>%
-  select(LID, ISO639.3, Glottocode, SubBranch, Area, LanguageAutotyp)
+  select(LID, ISO639.3, Glottocode, SubBranch, Area, LanguageAutotyp, LanguageAlternativeNames)
 
 wals_register <- read.csv('../autotyp-data-master/data/WALS_register.csv', na.strings='') %>% 
   rename(LanguageWALS = name, WALSCode = wals_code, Glottocode = glottocode) %>%
@@ -51,6 +51,7 @@ has_prodrop <- function(x){
   if(is.na(x)){ return(NA); }
   if(code == 'Obligatory pronouns in subject position'){ return(0)}
   if(code == 'Subject pronouns in different position'){ return(0)}
+  if(code == 'Mixed'){ return(2)}
   return(1);
 }
 
@@ -60,7 +61,7 @@ wals_person_marking <- read.csv('../autotyp-data-master/data/WALS_person_marking
 
 wals_has_case <- read.csv('../autotyp-data-master/data/WALS_cases.csv', na.strings='') %>% rename(WALSCode = ID, NumCases = Name) %>% select(WALSCode, NumCases) %>% mutate(CaseMarking = mapply(function(x) has_cases(x), NumCases))
 
-wals_has_prodrop <- read.csv('../autotyp-data-master/data/WALS_prodrop.csv', na.strings='') %>% rename(WALSCode = ID, ProExp = Name) %>% select(WALSCode, ProExp) %>% mutate(HasProdrop = mapply(function(x) has_prodrop(x), ProExp))
+wals_has_prodrop <- read.csv('../autotyp-data-master/data/WALS_prodrop.csv', na.strings='') %>% rename(WALSCode = ID, HasProdrop = Name) %>% select(WALSCode, HasProdrop)
 
 ```
 
@@ -123,7 +124,9 @@ To find discrepancies, we filter based on (1) Whether or not "WordOrderSPVBasicL
 
 ```{r}
 
-discrepancies <- flexibility_data_full %>% select(LID, ISO639.3, WALSCode, Glottocode, LanguageAutotyp, LanguageWALS, Area, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible) %>% filter((as.character(WordOrderSPVBasicLex) != as.character(WALSOrder)) & (WALSOrder != "No dominant order" | WordOrderSPVBasicLex != "free"))
+discrepancies <- flexibility_data_full %>% select(LID, ISO639.3, WALSCode, Glottocode, LanguageAutotyp, LanguageWALS, LanguageAlternativeNames, Area, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible) %>% filter((as.character(WordOrderSPVBasicLex) != as.character(WALSOrder)) & (WALSOrder != "No dominant order" | WordOrderSPVBasicLex != "free"))
+
+discrepancies
 
 write.csv(discrepancies, file="discrepancies.csv",
           row.names=FALSE)

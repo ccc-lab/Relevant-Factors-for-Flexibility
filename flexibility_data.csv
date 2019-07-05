@@ -1,762 +1,762 @@
 "LID","WALSCode","Glottocode","ISO639.3","LanguageAutotyp","LanguageWALS","Area","SubBranch","WALSOrder","WALSTwoOrder","WordOrderSPVBasicLex","WordOrderSPVLexFlexible","Marking","CaseMarking","VerbPersonMarking","HasProdrop"
 582,"abi","abip1241","axb","Abipon","Abipón","SE South America",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,NA
-7,"abk","abkh1244","abk","Abkhaz","Abkhaz","Greater Mesopotamia",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments",1
-10,"aco","west2632","kjq","Acoma","Acoma","Basin and Plains",NA,"No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments",1
-642,"aeg","egyp1253","arz","Arabic (Egyptian)","Arabic (Egyptian)","N Africa","Central (West Semitic)","SVO",NA,"SVO","rigid","No marking",0,"Both the A and P arguments",1
-12,"ain","ainu1240","ain","Ainu","Ainu","N Coast Asia",NA,"SOV",NA,"SOV","rigid","No marking",0,"Both the A and P arguments",1
-14,"ala","alam1246","amp","Alamblak","Alamblak","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments",1
-NA,"alb",NA,NA,NA,"Albanian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
+7,"abk","abkh1244","abk","Abkhaz","Abkhaz","Greater Mesopotamia",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
+10,"aco","west2632","kjq","Acoma","Acoma","Basin and Plains",NA,"No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+642,"aeg","egyp1253","arz","Arabic (Egyptian)","Arabic (Egyptian)","N Africa","Central (West Semitic)","SVO",NA,"SVO","rigid","No marking",0,"Both the A and P arguments","Subject affixes on verb"
+12,"ain","ainu1240","ain","Ainu","Ainu","N Coast Asia",NA,"SOV",NA,"SOV","rigid","No marking",0,"Both the A and P arguments","Subject affixes on verb"
+14,"ala","alam1246","amp","Alamblak","Alamblak","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"alb",NA,NA,NA,"Albanian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
 18,"ale","aleu1260","ale","Aleut","Aleut","N Coast Asia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,NA
 20,"ame","amel1241","aey","Amele","Amele","N Coast New Guinea","Mabuso","SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",NA
-21,"amh","amha1245","amh","Amharic","Amharic","Greater Abyssinia","Southern (West Semitic)","SOV",NA,"SOV","rigid",NA,NA,NA,1
+21,"amh","amha1245","amh","Amharic","Amharic","Greater Abyssinia","Southern (West Semitic)","SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
 620,"ana","arao1248","aro","Araona",NA,"NE South America",NA,NA,NA,"SOV","rigid",NA,NA,NA,NA
-512,"apu","apur1254","apu","Apurina","Apurinã","NE South America",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"arm",NA,NA,NA,"Armenian (Eastern)",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-NA,"arp",NA,NA,NA,"Arapesh (Mountain)",NA,NA,"SVO",NA,NA,NA,"Head marking",0,"Both the A and P arguments",1
-NA,"asm",NA,NA,NA,"Asmat",NA,NA,"SOV",NA,NA,NA,"Head marking",0,"Both the A and P arguments",1
-469,"awp","awac1239","kwi","Awa Pit","Awa Pit","Andean",NA,"SOV",NA,"SOV","rigid","Double marking",1,"A or P argument",1
-514,"aym","cent2142","ayr","Aymara","Aymara (Central)","Andean",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
+512,"apu","apur1254","apu","Apurina","Apurinã","NE South America",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"arm",NA,NA,NA,"Armenian (Eastern)",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"arp",NA,NA,NA,"Arapesh (Mountain)",NA,NA,"SVO",NA,NA,NA,"Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"asm",NA,NA,NA,"Asmat",NA,NA,"SOV",NA,NA,NA,"Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+469,"awp","awac1239","kwi","Awa Pit","Awa Pit","Andean",NA,"SOV",NA,"SOV","rigid","Double marking",1,"A or P argument","Subject affixes on verb"
+514,"aym","cent2142","ayr","Aymara","Aymara (Central)","Andean",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
 515,"bag","bagi1246","bmi","Bagirmi","Bagirmi","African Savannah",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",NA
 NA,"bam",NA,NA,NA,"Bambara",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"baw",NA,NA,NA,"Bawm",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-34,"bej","beja1238","bej","Beja","Beja","N Africa",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Both the A and P arguments",1
-NA,"bkr",NA,NA,NA,"Batak (Karo)",NA,NA,"No dominant order","SVO or VSO",NA,NA,NA,NA,NA,1
-571,"bma","cent2194","tzm","Tamazight (Ayt Ndhir)","Berber (Middle Atlas)","N Africa",NA,"VSO",NA,"VSO","rigid","Dependent marking",1,"Both the A and P arguments",1
-518,"brh","brah1256","brh","Brahui",NA,"Greater Mesopotamia",NA,NA,NA,"SOV","rigid","Dependent marking",1,"Only the A argument",1
+NA,"baw",NA,NA,NA,"Bawm",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+34,"bej","beja1238","bej","Beja","Beja","N Africa",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"bkr",NA,NA,NA,"Batak (Karo)",NA,NA,"No dominant order","SVO or VSO",NA,NA,NA,NA,NA,"Mixed"
+571,"bma","cent2194","tzm","Tamazight (Ayt Ndhir)","Berber (Middle Atlas)","N Africa",NA,"VSO",NA,"VSO","rigid","Dependent marking",1,"Both the A and P arguments","Subject affixes on verb"
+518,"brh","brah1256","brh","Brahui",NA,"Greater Mesopotamia",NA,NA,NA,"SOV","rigid","Dependent marking",1,"Only the A argument","Subject affixes on verb"
 519,"bri","brib1243","bzd","Bribri","Bribri","Mesoamerica",NA,"SOV",NA,"SOV","rigid","No marking",0,"No person marking",NA
-463,"brm","nucl1310","mya","Burmese","Burmese","Southeast Asia","Burmish","SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",1
-493,"brs","bara1380","bsn","Barasano","Barasano","NE South America",NA,"No dominant order",NA,"free","free","Double marking",1,"Only the A argument",1
-32,"bsq","basq1248","eus","Basque","Basque","Europe",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
-NA,"bul",NA,NA,NA,"Bulgarian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-40,"bur","buru1296","bsk","Burushaski","Burushaski","Indic",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
-NA,"cah",NA,NA,NA,"Cahuilla",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
+463,"brm","nucl1310","mya","Burmese","Burmese","Southeast Asia","Burmish","SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
+493,"brs","bara1380","bsn","Barasano","Barasano","NE South America",NA,"No dominant order",NA,"free","free","Double marking",1,"Only the A argument","Subject affixes on verb"
+32,"bsq","basq1248","eus","Basque","Basque","Europe",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"bul",NA,NA,NA,"Bulgarian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+40,"bur","buru1296","bsk","Burushaski","Burushaski","Indic",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"cah",NA,NA,NA,"Cahuilla",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
 NA,"car",NA,NA,NA,"Carib",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"cba",NA,NA,NA,"Chumash (Barbareño)",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,1
+NA,"cba",NA,NA,NA,"Chumash (Barbareño)",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
 48,"cha","cham1312","cha","Chamorro","Chamorro","Oceania",NA,"VSO",NA,"VSO","rigid","Dependent marking",0,"Only the A argument",NA
-56,"chk","chuk1273","ckt","Chukchi","Chukchi","N Coast Asia","Northern Chukotkan","No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments",1
+56,"chk","chuk1273","ckt","Chukchi","Chukchi","N Coast Asia","Northern Chukotkan","No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
 NA,"chv",NA,NA,NA,"Chuvash",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
 43,"ckr","cane1242","ram","Canela-Krahô","Canela-Krahô","NE South America","Amazonian Ge","SOV",NA,"SOV","rigid","Head marking",0,"Only the P argument",NA
-551,"cle","leal1235","cle","Chinantec (Lealao)","Chinantec (Lealao)","Mesoamerica",NA,"VOS",NA,"VOS","rigid",NA,NA,NA,1
-NA,"cmn",NA,NA,NA,"Comanche",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-432,"coo","coos1249","cos","Hanis (Coos)","Coos (Hanis)","Alaska-Oregon",NA,"No dominant order",NA,"OVS","flexible","Head marking",1,"Both the A and P arguments",1
-59,"cre","plai1258","crk","Cree (Plains)","Cree (Plains)","E North America",NA,"No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments",1
-NA,"ctl",NA,NA,NA,"Catalan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-47,"cyv","cayu1262","cyb","Cayuvava","Cayuvava","NE South America",NA,"VOS",NA,"VOS","rigid","No marking",0,"Both the A and P arguments",1
-505,"dag","daga1275","dgz","Daga","Daga","S New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"dio",NA,NA,NA,"Diola-Fogny",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-61,"dni","lowe1415","dni","Dani (Lower Grand Valley)","Dani (Lower Grand Valley)","Interior New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments",1
+551,"cle","leal1235","cle","Chinantec (Lealao)","Chinantec (Lealao)","Mesoamerica",NA,"VOS",NA,"VOS","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"cmn",NA,NA,NA,"Comanche",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+432,"coo","coos1249","cos","Hanis (Coos)","Coos (Hanis)","Alaska-Oregon",NA,"No dominant order",NA,"OVS","flexible","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
+59,"cre","plai1258","crk","Cree (Plains)","Cree (Plains)","E North America",NA,"No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments","Subject clitics on variable host"
+NA,"ctl",NA,NA,NA,"Catalan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+47,"cyv","cayu1262","cyb","Cayuvava","Cayuvava","NE South America",NA,"VOS",NA,"VOS","rigid","No marking",0,"Both the A and P arguments","Subject affixes on verb"
+505,"dag","daga1275","dgz","Daga","Daga","S New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"dio",NA,NA,NA,"Diola-Fogny",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+61,"dni","lowe1415","dni","Dani (Lower Grand Valley)","Dani (Lower Grand Valley)","Interior New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
 NA,"don",NA,NA,NA,"Dong (Southern)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
-70,"dre","dehu1237","dhv","Drehu","Drehu","Oceania","Oceanic","No dominant order","SVO or VOS","VOS","flexible",NA,NA,NA,0
-NA,"dut",NA,NA,NA,"Dutch",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,0
+70,"dre","dehu1237","dhv","Drehu","Drehu","Oceania","Oceanic","No dominant order","SVO or VOS","VOS","flexible",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"dut",NA,NA,NA,"Dutch",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
 71,"dyi","dyir1250","dbl","Dyirbal","Dyirbal","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,NA
 525,"eka","ekar1243","ekg","Ekari","Ekari","Interior New Guinea",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",NA
-74,"eng","stan1293","eng","English","English","Europe","West Germanic","SVO",NA,"SVO","rigid","Dependent marking",1,"Only the A argument",0
-526,"epe","epen1239","sja","Epena Pedee","Epena Pedee","Andean",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",1
-NA,"est",NA,NA,NA,"Estonian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-527,"eve","even1259","evn","Evenki","Evenki","Inner Asia","Northwestern Tungusic","SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument",0
-75,"ewe","ewee1241","ewe","Ewe","Ewe","African Savannah",NA,"SVO",NA,"SVO","rigid","No marking",0,"Both the A and P arguments",1
-585,"fij","fiji1243","fij","Fijian","Fijian","Oceania","Oceanic","No dominant order","VSO or VOS","VOS","rigid","Head marking",0,"Both the A and P arguments",0
-77,"fij","fiji1243","fij","Fijian (Boumaa)","Fijian","Oceania","Oceanic","No dominant order","VSO or VOS","VOS","flexible","Head marking",0,"Both the A and P arguments",0
-78,"fin","finn1318","fin","Finnish","Finnish","Inner Asia","Finno-Permian","SVO",NA,"SVO","rigid","Dependent marking",1,"Only the A argument",1
-79,"fre","stan1290","fra","French (colloquial)","French","Europe","Italic","SVO",NA,"free","free","No marking",0,"Only the A argument",0
-80,"fua","adam1253","fub","Fula","Fula (Cameroonian)","African Savannah",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-81,"fur","furr1244","fvr","Fur","Fur","African Savannah",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument",1
-528,"gar","garo1247","grt","Garo","Garo","Indic","Bodo-Koch (Barish, Bodo-Garo)","SOV",NA,"xxV","flexible",NA,NA,NA,1
-86,"geo","nucl1302","kat","Georgian","Georgian","Greater Mesopotamia",NA,"SOV",NA,"SOV","flexible","Double marking",1,"Both the A and P arguments",0
-87,"ger","stan1295","deu","German","German","Europe","West Germanic","No dominant order","SOV or SVO","V-2","flexible","Dependent marking",1,"Only the A argument",0
-NA,"gim",NA,NA,NA,"Gimira",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-149,"goo","goon1238","gni","Kuniyanti","Gooniyandi","N Australia",NA,"No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments",1
-NA,"grb",NA,NA,NA,"Grebo",NA,NA,"SVO",NA,NA,NA,"Dependent marking",0,"No person marking",0
-464,"grk","mode1248","ell","Greek (modern)","Greek (Modern)","Europe","Greek","No dominant order","SVO or VSO","free","free","Double marking",1,"Both the A and P arguments",1
-NA,"grw",NA,NA,NA,"Greenlandic (West)",NA,NA,"SOV",NA,NA,NA,"Double marking",1,"Both the A and P arguments",1
-89,"gua","para1311","gug","Guaraní (Paraguayan)","Guaraní","SE South America",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"hai",NA,NA,NA,"Haida",NA,NA,"SOV",NA,NA,NA,"No marking",0,"No person marking",0
-NA,"ham",NA,NA,NA,"Hamtai",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-98,"hau","haus1257","hau","Hausa","Hausa","African Savannah","West - A (West Chadic)","SVO",NA,"SVO","rigid","Double marking",0,"No person marking",0
-NA,"heb",NA,NA,NA,"Hebrew (Modern)",NA,NA,"SVO",NA,NA,NA,"Dependent marking",0,"Only the A argument",1
-101,"hix","hixk1239","hix","Hixkaryana","Hixkaryana","NE South America",NA,"OVS",NA,"OVS","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"hmi",NA,NA,NA,"Huitoto (Minica)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"hmo",NA,NA,NA,"Hmong Njua",NA,NA,"SVO",NA,NA,NA,"No marking",0,"No person marking",0
-103,"hua","yaga1260","ygr","Hua","Hua","Interior New Guinea","Kamano-Yagaria","SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
-107,"hun","hung1274","hun","Hungarian","Hungarian","Europe","Ugric","No dominant order","SOV or SVO","SVO","flexible","Dependent marking",1,"Both the A and P arguments",1
+74,"eng","stan1293","eng","English","English","Europe","West Germanic","SVO",NA,"SVO","rigid","Dependent marking",1,"Only the A argument","Obligatory pronouns in subject position"
+526,"epe","epen1239","sja","Epena Pedee","Epena Pedee","Andean",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
+NA,"est",NA,NA,NA,"Estonian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+527,"eve","even1259","evn","Evenki","Evenki","Inner Asia","Northwestern Tungusic","SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument","Obligatory pronouns in subject position"
+75,"ewe","ewee1241","ewe","Ewe","Ewe","African Savannah",NA,"SVO",NA,"SVO","rigid","No marking",0,"Both the A and P arguments","Subject affixes on verb"
+585,"fij","fiji1243","fij","Fijian","Fijian","Oceania","Oceanic","No dominant order","VSO or VOS","VOS","rigid","Head marking",0,"Both the A and P arguments","Subject pronouns in different position"
+77,"fij","fiji1243","fij","Fijian (Boumaa)","Fijian","Oceania","Oceanic","No dominant order","VSO or VOS","VOS","flexible","Head marking",0,"Both the A and P arguments","Subject pronouns in different position"
+78,"fin","finn1318","fin","Finnish","Finnish","Inner Asia","Finno-Permian","SVO",NA,"SVO","rigid","Dependent marking",1,"Only the A argument","Mixed"
+79,"fre","stan1290","fra","French (colloquial)","French","Europe","Italic","SVO",NA,"free","free","No marking",0,"Only the A argument","Obligatory pronouns in subject position"
+80,"fua","adam1253","fub","Fula","Fula (Cameroonian)","African Savannah",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+81,"fur","furr1244","fvr","Fur","Fur","African Savannah",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument","Subject affixes on verb"
+528,"gar","garo1247","grt","Garo","Garo","Indic","Bodo-Koch (Barish, Bodo-Garo)","SOV",NA,"xxV","flexible",NA,NA,NA,"Optional pronouns in subject position"
+86,"geo","nucl1302","kat","Georgian","Georgian","Greater Mesopotamia",NA,"SOV",NA,"SOV","flexible","Double marking",1,"Both the A and P arguments","Subject pronouns in different position"
+87,"ger","stan1295","deu","German","German","Europe","West Germanic","No dominant order","SOV or SVO","V-2","flexible","Dependent marking",1,"Only the A argument","Obligatory pronouns in subject position"
+NA,"gim",NA,NA,NA,"Gimira",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+149,"goo","goon1238","gni","Kuniyanti","Gooniyandi","N Australia",NA,"No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"grb",NA,NA,NA,"Grebo",NA,NA,"SVO",NA,NA,NA,"Dependent marking",0,"No person marking","Subject pronouns in different position"
+464,"grk","mode1248","ell","Greek (modern)","Greek (Modern)","Europe","Greek","No dominant order","SVO or VSO","free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"grw",NA,NA,NA,"Greenlandic (West)",NA,NA,"SOV",NA,NA,NA,"Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+89,"gua","para1311","gug","Guaraní (Paraguayan)","Guaraní","SE South America",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"hai",NA,NA,NA,"Haida",NA,NA,"SOV",NA,NA,NA,"No marking",0,"No person marking","Obligatory pronouns in subject position"
+NA,"ham",NA,NA,NA,"Hamtai",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+98,"hau","haus1257","hau","Hausa","Hausa","African Savannah","West - A (West Chadic)","SVO",NA,"SVO","rigid","Double marking",0,"No person marking","Subject pronouns in different position"
+NA,"heb",NA,NA,NA,"Hebrew (Modern)",NA,NA,"SVO",NA,NA,NA,"Dependent marking",0,"Only the A argument","Mixed"
+101,"hix","hixk1239","hix","Hixkaryana","Hixkaryana","NE South America",NA,"OVS",NA,"OVS","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"hmi",NA,NA,NA,"Huitoto (Minica)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"hmo",NA,NA,NA,"Hmong Njua",NA,NA,"SVO",NA,NA,NA,"No marking",0,"No person marking","Obligatory pronouns in subject position"
+103,"hua","yaga1260","ygr","Hua","Hua","Interior New Guinea","Kamano-Yagaria","SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+107,"hun","hung1274","hun","Hungarian","Hungarian","Europe","Ugric","No dominant order","SOV or SVO","SVO","flexible","Dependent marking",1,"Both the A and P arguments","Subject affixes on verb"
 NA,"hve",NA,NA,NA,"Huave (San Mateo del Mar)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
 530,"hzb","hunz1247","huz","Hunzib","Hunzib","Greater Mesopotamia","Tsezic","SOV",NA,"SOV","rigid",NA,NA,NA,NA
-NA,"iaa",NA,NA,NA,"Iaai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ice",NA,NA,NA,"Icelandic",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"igb",NA,NA,NA,"Igbo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ika",NA,NA,NA,"Ika",NA,NA,"SOV",NA,NA,NA,"No marking",1,"Both the A and P arguments",1
+NA,"iaa",NA,NA,NA,"Iaai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"ice",NA,NA,NA,"Icelandic",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"igb",NA,NA,NA,"Igbo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"ika",NA,NA,NA,"Ika",NA,NA,"SOV",NA,NA,NA,"No marking",1,"Both the A and P arguments","Subject affixes on verb"
 NA,"ilo",NA,NA,NA,"Ilocano",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,NA
-112,"imo","imon1245","imn","Imonda",NA,"N Coast New Guinea",NA,NA,NA,"free","free","Double marking",1,"No person marking",1
-NA,"ind",NA,NA,NA,"Indonesian",NA,NA,"SVO",NA,NA,NA,"No marking",0,"Only the P argument",0
-114,"ing","ingu1240","inh","Ingush",NA,"Greater Mesopotamia","Vainakh",NA,NA,"V-2","flexible","Double marking",1,"No person marking",0
-435,"iri","iris1253","gle","Irish","Irish","Europe","Celtic","VSO",NA,"VSO","rigid",NA,NA,NA,1
-534,"irq","iraq1241","irk","Iraqw","Iraqw","S Africa",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-725,"ita","ital1282","ita","Italian","Italian","Europe","Italic","SVO",NA,"SVO","rigid",NA,NA,NA,1
-460,"jak","popt1235","jac","Jacaltec","Jakaltek","Mesoamerica","Kanjobalan","VSO",NA,"VSO","rigid","Head marking",0,"Both the A and P arguments",1
-118,"jpn","nucl1643","jpn","Japanese","Japanese","N Coast Asia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",1
-NA,"juh",NA,NA,NA,"Ju|'hoan",NA,NA,"SVO",NA,NA,NA,"No marking",0,"No person marking",0
-NA,"kas",NA,NA,NA,"Kashmiri",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-128,"kay","kaya1319","gyd","Kayardild","Kayardild","N Australia","South Wellesley","No dominant order",NA,"free","free","Dependent marking",1,"No person marking",1
+112,"imo","imon1245","imn","Imonda",NA,"N Coast New Guinea",NA,NA,NA,"free","free","Double marking",1,"No person marking","Optional pronouns in subject position"
+NA,"ind",NA,NA,NA,"Indonesian",NA,NA,"SVO",NA,NA,NA,"No marking",0,"Only the P argument","Obligatory pronouns in subject position"
+114,"ing","ingu1240","inh","Ingush",NA,"Greater Mesopotamia","Vainakh",NA,NA,"V-2","flexible","Double marking",1,"No person marking","Obligatory pronouns in subject position"
+435,"iri","iris1253","gle","Irish","Irish","Europe","Celtic","VSO",NA,"VSO","rigid",NA,NA,NA,"Mixed"
+534,"irq","iraq1241","irk","Iraqw","Iraqw","S Africa",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+725,"ita","ital1282","ita","Italian","Italian","Europe","Italic","SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+460,"jak","popt1235","jac","Jacaltec","Jakaltek","Mesoamerica","Kanjobalan","VSO",NA,"VSO","rigid","Head marking",0,"Both the A and P arguments","Mixed"
+118,"jpn","nucl1643","jpn","Japanese","Japanese","N Coast Asia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
+NA,"juh",NA,NA,NA,"Ju|'hoan",NA,NA,"SVO",NA,NA,NA,"No marking",0,"No person marking","Obligatory pronouns in subject position"
+NA,"kas",NA,NA,NA,"Kashmiri",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+128,"kay","kaya1319","gyd","Kayardild","Kayardild","N Australia","South Wellesley","No dominant order",NA,"free","free","Dependent marking",1,"No person marking","Optional pronouns in subject position"
 NA,"ker",NA,NA,NA,"Kera",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
 129,"ket","kett1243","ket","Ket","Ket","Inner Asia",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments",NA
-NA,"kew",NA,NA,NA,"Kewa",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Only the A argument",1
-NA,"kfe",NA,NA,NA,"Koromfe",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-188,"kha","halh1238","khk","Mongolian (Khalkha)","Khalkha","Inner Asia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",1
+NA,"kew",NA,NA,NA,"Kewa",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Only the A argument","Subject affixes on verb"
+NA,"kfe",NA,NA,NA,"Koromfe",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+188,"kha","halh1238","khk","Mongolian (Khalkha)","Khalkha","Inner Asia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
 NA,"khm",NA,NA,NA,"Khmer",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
-199,"kho","nama1264","naq","Nama","Khoekhoe","S Africa",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Only the P argument",0
-540,"khs","khas1269","kha","Khasi","Khasi","Indic","Khasic","SVO",NA,"SVO","rigid",NA,NA,NA,0
+199,"kho","nama1264","naq","Nama","Khoekhoe","S Africa",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Only the P argument","Obligatory pronouns in subject position"
+540,"khs","khas1269","kha","Khasi","Khasi","Indic","Khasic","SVO",NA,"SVO","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
 NA,"kin",NA,NA,NA,"Kinyarwanda",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
-132,"kio","kiow1266","kio","Kiowa","Kiowa","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Head marking",0,"A or P argument",1
+132,"kio","kiow1266","kio","Kiowa","Kiowa","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Head marking",0,"A or P argument","Subject affixes on verb"
 NA,"kls",NA,NA,NA,"Kalispel",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,NA
-NA,"klv",NA,NA,NA,"Kilivila",NA,NA,"No dominant order","SVO or VOS",NA,NA,NA,NA,NA,1
+NA,"klv",NA,NA,NA,"Kilivila",NA,NA,"No dominant order","SVO or VOS",NA,NA,NA,NA,NA,"Subject affixes on verb"
 659,"kly","kala1377","mwp","Kala Lagaw La",NA,"N Australia",NA,NA,NA,"SOV","rigid",NA,NA,NA,NA
-NA,"kmb",NA,NA,NA,"Kombai",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kmu",NA,NA,NA,"Khmu'",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-535,"knd","nucl1305","kan","Kannada","Kannada","Indic","South Dravidian I","SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument",1
-147,"knm","kuna1268","kun","Kunama","Kunama","Greater Abyssinia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Both the A and P arguments",1
-NA,"knr",NA,NA,NA,"Kanuri",NA,NA,"SOV",NA,NA,NA,"Double marking",1,"Both the A and P arguments",1
-135,"koa","koas1236","cku","Koasati","Koasati","E North America",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
-136,"kob","kobo1249","kpw","Kobon","Kobon","Interior New Guinea","Kalam-Kobon","SOV",NA,"SOV","rigid","No marking",0,"Only the A argument",1
-NA,"kon",NA,NA,NA,"Kongo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-141,"kor","kore1280","kor","Korean","Korean","N Coast Asia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",1
+NA,"kmb",NA,NA,NA,"Kombai",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kmu",NA,NA,NA,"Khmu'",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+535,"knd","nucl1305","kan","Kannada","Kannada","Indic","South Dravidian I","SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument","Subject affixes on verb"
+147,"knm","kuna1268","kun","Kunama","Kunama","Greater Abyssinia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"knr",NA,NA,NA,"Kanuri",NA,NA,"SOV",NA,NA,NA,"Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+135,"koa","koas1236","cku","Koasati","Koasati","E North America",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+136,"kob","kobo1249","kpw","Kobon","Kobon","Interior New Guinea","Kalam-Kobon","SOV",NA,"SOV","rigid","No marking",0,"Only the A argument","Subject affixes on verb"
+NA,"kon",NA,NA,NA,"Kongo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+141,"kor","kore1280","kor","Korean","Korean","N Coast Asia",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
 NA,"kos",NA,NA,NA,"Kosraean",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
-NA,"krb",NA,NA,NA,"Kiribati",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,0
-125,"krk","karo1304","kyh","Karok","Karok","California",NA,"No dominant order",NA,"free","free","Head marking",1,"Both the A and P arguments",1
-495,"kro","kron1241","kgo","Krongo","Krongo","African Savannah",NA,"VSO",NA,"VSO","rigid","No marking",1,"No person marking",1
-144,"kse","koyr1242","ses","Koroboro Senni","Koyraboro Senni","African Savannah",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"kty",NA,NA,NA,"Khanty",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-150,"kut","kute1249","kut","Kutenai","Kutenai","Basin and Plains",NA,"No dominant order","VSO or VOS","free","free","Double marking",0,"Both the A and P arguments",0
-538,"kyl","east2342","eky","Kayah Li (Easterrn)","Kayah Li (Eastern)","Southeast Asia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"lad",NA,NA,NA,"Ladakhi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
+NA,"krb",NA,NA,NA,"Kiribati",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+125,"krk","karo1304","kyh","Karok","Karok","California",NA,"No dominant order",NA,"free","free","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
+495,"kro","kron1241","kgo","Krongo","Krongo","African Savannah",NA,"VSO",NA,"VSO","rigid","No marking",1,"No person marking","Mixed"
+144,"kse","koyr1242","ses","Koroboro Senni","Koyraboro Senni","African Savannah",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"kty",NA,NA,NA,"Khanty",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+150,"kut","kute1249","kut","Kutenai","Kutenai","Basin and Plains",NA,"No dominant order","VSO or VOS","free","free","Double marking",0,"Both the A and P arguments","Subject pronouns in different position"
+538,"kyl","east2342","eky","Kayah Li (Easterrn)","Kayah Li (Eastern)","Southeast Asia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Optional pronouns in subject position"
+NA,"lad",NA,NA,NA,"Ladakhi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
 155,"lak","lakk1252","lbe","Lak",NA,"Greater Mesopotamia","Lak",NA,NA,"SOV","rigid",NA,NA,NA,NA
-159,"lan","lang1324","laj","Lango","Lango","S Africa","Lwo","SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"lat",NA,NA,NA,"Latvian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-550,"lav","lavu1241","lvk","Lavukaleve","Lavukaleve","Oceania",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"lep",NA,NA,NA,"Lepcha",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-162,"lez","lezg1247","lez","Lezgi","Lezgian","Greater Mesopotamia","Lezgian","SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",1
-NA,"lit",NA,NA,NA,"Lithuanian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-156,"lkt","lako1247","lkt","Lakhota","Lakhota","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
-553,"luv","luva1239","lue","Luvale","Luvale","S Africa","Bantu (narrow)","SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",1
-NA,"mab",NA,NA,NA,"Maba",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mak",NA,NA,NA,"Makah",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"mal",NA,NA,NA,"Malagasy",NA,NA,"VOS",NA,NA,NA,"Dependent marking",0,"No person marking",0
-NA,"mao",NA,NA,NA,"Maori",NA,NA,"VSO",NA,NA,NA,"Dependent marking",0,"No person marking",1
-176,"map","mapu1245","arn","Mapudungun","Mapudungun","Andean",NA,"SVO",NA,"free","free","Double marking",1,"Both the A and P arguments",1
-465,"mar","mari1440","mrc","Maricopa","Maricopa","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
-181,"mau","maun1240","mph","Mawng","Maung","N Australia",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",1
-438,"may","maib1239","ayz","Maybrat","Maybrat","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid","No marking",1,"Only the A argument",1
-501,"mei","mani1292","mni","Meithei",NA,"Southeast Asia",NA,NA,NA,"SOV","rigid","Dependent marking",1,"No person marking",1
+159,"lan","lang1324","laj","Lango","Lango","S Africa","Lwo","SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"lat",NA,NA,NA,"Latvian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+550,"lav","lavu1241","lvk","Lavukaleve","Lavukaleve","Oceania",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"lep",NA,NA,NA,"Lepcha",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+162,"lez","lezg1247","lez","Lezgi","Lezgian","Greater Mesopotamia","Lezgian","SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
+NA,"lit",NA,NA,NA,"Lithuanian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+156,"lkt","lako1247","lkt","Lakhota","Lakhota","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+553,"luv","luva1239","lue","Luvale","Luvale","S Africa","Bantu (narrow)","SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"mab",NA,NA,NA,"Maba",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mak",NA,NA,NA,"Makah",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"mal",NA,NA,NA,"Malagasy",NA,NA,"VOS",NA,NA,NA,"Dependent marking",0,"No person marking","Obligatory pronouns in subject position"
+NA,"mao",NA,NA,NA,"Maori",NA,NA,"VSO",NA,NA,NA,"Dependent marking",0,"No person marking","Optional pronouns in subject position"
+176,"map","mapu1245","arn","Mapudungun","Mapudungun","Andean",NA,"SVO",NA,"free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+465,"mar","mari1440","mrc","Maricopa","Maricopa","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+181,"mau","maun1240","mph","Mawng","Maung","N Australia",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+438,"may","maib1239","ayz","Maybrat","Maybrat","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid","No marking",1,"Only the A argument","Optional pronouns in subject position"
+501,"mei","mani1292","mni","Meithei",NA,"Southeast Asia",NA,NA,NA,"SOV","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
 NA,"mhi",NA,NA,NA,"Marathi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"mku",NA,NA,NA,"Maranungku",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
+NA,"mku",NA,NA,NA,"Maranungku",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
 170,"mlk","mull1237","mpb","Malak-Malak",NA,"N Australia",NA,NA,NA,"SOV","rigid","Other",1,"Both the A and P arguments",NA
-171,"mnd","mand1415","cmn","Mandarin","Mandarin","Southeast Asia","Northern Sinitic","SVO",NA,"SVO","rigid","Dependent marking",0,"No person marking",1
-NA,"moe",NA,NA,NA,"Mordvin (Erzya)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mok",NA,NA,NA,"Mokilese",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
+171,"mnd","mand1415","cmn","Mandarin","Mandarin","Southeast Asia","Northern Sinitic","SVO",NA,"SVO","rigid","Dependent marking",0,"No person marking","Optional pronouns in subject position"
+NA,"moe",NA,NA,NA,"Mordvin (Erzya)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mok",NA,NA,NA,"Mokilese",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
 NA,"mrd",NA,NA,NA,"Marind",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"mrl",NA,NA,NA,"Murle",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-179,"mrt","mart1255","vma","Martuthunira","Martuthunira","S Australia","Ngayardic","SVO",NA,"SVO","rigid","Dependent marking",1,"No person marking",1
-356,"mss","sout2985","skd","Miwok (Southern Sierra)","Miwok (Southern Sierra)","California","Miwok-Costanoan","No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments",1
-558,"mun","mund1320","unr","Mundari","Mundari","Indic","Northern Munda","SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
-186,"mxc","sanm1295","mig","Mixtec (Chalcatongo)","Mixtec (Chalcatongo)","Mesoamerica",NA,"VSO",NA,"VSO","rigid","No marking",0,"Only the A argument",1
-173,"myi","mang1381","mpc","Mangarayi","Mangarrayi","N Australia",NA,"OVS",NA,"OVS","rigid","Double marking",1,"Both the A and P arguments",1
-NA,"mym",NA,NA,NA,"Malayalam",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-204,"nav","nava1243","nav","Navajo","Navajo","Basin and Plains",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"nbd",NA,NA,NA,"Nubian (Dongolese)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Only the A argument",1
-NA,"ndy",NA,NA,NA,"Ndyuka",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-205,"nen","nene1249","yrk","Nenets (Tundra)","Nenets","Inner Asia","Northern Samoyedic","SOV",NA,"SOV","rigid","Double marking",1,"Only the A argument",1
-208,"nez","nezp1238","nez","Nez Perce","Nez Perce","Basin and Plains",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-NA,"ngi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dependent marking",1,"Both the A and P arguments",1
-572,"nht","tete1251","nhg","Nahuatl (Tetelcingo)","Nahuatl (Tetelcingo)","Mesoamerica","Aztecan","SVO",NA,"SVO","rigid",NA,NA,NA,1
-433,"niv","gily1242","niv","Nivkh","Nivkh","N Coast Asia",NA,"SOV",NA,"SOV","rigid","Head marking",1,"No person marking",1
-NA,"nko",NA,NA,NA,"Nkore-Kiga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"nti",NA,NA,NA,"Ngiti",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-318,"nug","nung1290","nuy","Nunggubuyu","Nunggubuyu","N Australia",NA,"No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments",1
-461,"ond","onei1249","one","Oneida","Oneida","E North America","Five Nations-Huronian-Susquehannock (Proto-Lake Iroquoian)","No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments",1
-324,"orh","east2652","hae","Oromo","Oromo (Harar)","S Africa",NA,"SOV",NA,"SOV","rigid","No marking",1,"Only the A argument",1
-326,"pae","paez1247","pbb","Paez","Páez","NE South America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-327,"pai","paiw1248","pwn","Paiwan","Paiwan","Oceania",NA,"No dominant order","VSO or VOS","Vxx","flexible","Double marking",0,"No person marking",1
+NA,"mrl",NA,NA,NA,"Murle",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+179,"mrt","mart1255","vma","Martuthunira","Martuthunira","S Australia","Ngayardic","SVO",NA,"SVO","rigid","Dependent marking",1,"No person marking","Optional pronouns in subject position"
+356,"mss","sout2985","skd","Miwok (Southern Sierra)","Miwok (Southern Sierra)","California","Miwok-Costanoan","No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+558,"mun","mund1320","unr","Mundari","Mundari","Indic","Northern Munda","SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject clitics on variable host"
+186,"mxc","sanm1295","mig","Mixtec (Chalcatongo)","Mixtec (Chalcatongo)","Mesoamerica",NA,"VSO",NA,"VSO","rigid","No marking",0,"Only the A argument","Mixed"
+173,"myi","mang1381","mpc","Mangarayi","Mangarrayi","N Australia",NA,"OVS",NA,"OVS","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"mym",NA,NA,NA,"Malayalam",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+204,"nav","nava1243","nav","Navajo","Navajo","Basin and Plains",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"nbd",NA,NA,NA,"Nubian (Dongolese)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Only the A argument","Subject affixes on verb"
+NA,"ndy",NA,NA,NA,"Ndyuka",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+205,"nen","nene1249","yrk","Nenets (Tundra)","Nenets","Inner Asia","Northern Samoyedic","SOV",NA,"SOV","rigid","Double marking",1,"Only the A argument","Subject affixes on verb"
+208,"nez","nezp1238","nez","Nez Perce","Nez Perce","Basin and Plains",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"ngi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dependent marking",1,"Both the A and P arguments","Subject clitics on variable host"
+572,"nht","tete1251","nhg","Nahuatl (Tetelcingo)","Nahuatl (Tetelcingo)","Mesoamerica","Aztecan","SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+433,"niv","gily1242","niv","Nivkh","Nivkh","N Coast Asia",NA,"SOV",NA,"SOV","rigid","Head marking",1,"No person marking","Optional pronouns in subject position"
+NA,"nko",NA,NA,NA,"Nkore-Kiga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nti",NA,NA,NA,"Ngiti",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+318,"nug","nung1290","nuy","Nunggubuyu","Nunggubuyu","N Australia",NA,"No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+461,"ond","onei1249","one","Oneida","Oneida","E North America","Five Nations-Huronian-Susquehannock (Proto-Lake Iroquoian)","No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+324,"orh","east2652","hae","Oromo","Oromo (Harar)","S Africa",NA,"SOV",NA,"SOV","rigid","No marking",1,"Only the A argument","Subject affixes on verb"
+326,"pae","paez1247","pbb","Paez","Páez","NE South America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject clitics on variable host"
+327,"pai","paiw1248","pwn","Paiwan","Paiwan","Oceania",NA,"No dominant order","VSO or VOS","Vxx","flexible","Double marking",0,"No person marking","Subject affixes on verb"
 NA,"pal",NA,NA,NA,"Palauan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
-NA,"pan",NA,NA,NA,"Panjabi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-329,"pau","paum1247","pad","Paumarí","Paumarí","NE South America",NA,"SVO",NA,"SVO","flexible","Double marking",1,"Only the A argument",1
-NA,"pms",NA,NA,NA,"Paamese",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"pol",NA,NA,NA,"Polish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
+NA,"pan",NA,NA,NA,"Panjabi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+329,"pau","paum1247","pad","Paumarí","Paumarí","NE South America",NA,"SVO",NA,"SVO","flexible","Double marking",1,"Only the A argument","Subject affixes on verb"
+NA,"pms",NA,NA,NA,"Paamese",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"pol",NA,NA,NA,"Polish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
 333,"prh","pira1253","myp","Pirahã","Pirahã","NE South America",NA,"SOV",NA,"SOV","rigid","No marking",0,"Both the A and P arguments",NA
-456,"prs","west2369","pes","Persian","Persian","Greater Mesopotamia","Iranian","SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments",1
+456,"prs","west2369","pes","Persian","Persian","Greater Mesopotamia","Iranian","SOV",NA,"SOV","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
 NA,"psh",NA,NA,NA,"Pashto",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"psm",NA,NA,NA,"Passamaquoddy-Maliseet",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"pso",NA,NA,NA,"Pomo (Southeastern)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"No person marking",0
-NA,"qim",NA,NA,NA,"Quechua (Imbabura)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Both the A and P arguments",1
-454,"ram","rama1270","rma","Rama","Rama","Mesoamerica",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Only the A argument",1
-564,"rap","rapa1244","rap","Rapanui","Rapanui","Oceania","Oceanic","VSO",NA,"VSO","rigid","Double marking",0,"No person marking",1
+NA,"psm",NA,NA,NA,"Passamaquoddy-Maliseet",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"pso",NA,NA,NA,"Pomo (Southeastern)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"No person marking","Obligatory pronouns in subject position"
+NA,"qim",NA,NA,NA,"Quechua (Imbabura)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Both the A and P arguments","Subject affixes on verb"
+454,"ram","rama1270","rma","Rama","Rama","Mesoamerica",NA,"SOV",NA,"SOV","rigid","Double marking",1,"Only the A argument","Subject affixes on verb"
+564,"rap","rapa1244","rap","Rapanui","Rapanui","Oceania","Oceanic","VSO",NA,"VSO","rigid","Double marking",0,"No person marking","Optional pronouns in subject position"
 NA,"rom",NA,NA,NA,"Romanian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
-340,"rus","russ1263","rus","Russian","Russian","Inner Asia","Slavic","SVO",NA,"SVO","rigid","Dependent marking",1,"Only the A argument",0
-466,"san","sang1328","sag","Sango","Sango","S Africa",NA,"SVO",NA,"SVO","rigid","No marking",0,"No person marking",1
-NA,"scr",NA,NA,NA,"Serbian-Croatian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
+340,"rus","russ1263","rus","Russian","Russian","Inner Asia","Slavic","SVO",NA,"SVO","rigid","Dependent marking",1,"Only the A argument","Obligatory pronouns in subject position"
+466,"san","sang1328","sag","Sango","Sango","S Africa",NA,"SVO",NA,"SVO","rigid","No marking",0,"No person marking","Subject affixes on verb"
+NA,"scr",NA,NA,NA,"Serbian-Croatian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
 565,"sel","onaa1245","ona","Selknam","Selknam","SE South America",NA,"OVS",NA,"OVS","rigid",NA,NA,NA,NA
 567,"shk","ship1254","shp","Shipibo-Konibo","Shipibo-Konibo","NE South America",NA,"SOV",NA,"SOV","rigid","Dependent marking",1,"No person marking",NA
-NA,"sla",NA,NA,NA,"Slave",NA,NA,"SOV",NA,NA,NA,"Head marking",0,"Both the A and P arguments",1
-566,"sml","seme1247","sza","Semelai","Semelai","Southeast Asia","Aslian","No dominant order","VSO or VOS","free","free","Dependent marking",1,"Only the A argument",1
+NA,"sla",NA,NA,NA,"Slave",NA,NA,"SOV",NA,NA,NA,"Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+566,"sml","seme1247","sza","Semelai","Semelai","Southeast Asia","Aslian","No dominant order","VSO or VOS","free","free","Dependent marking",1,"Only the A argument","Subject affixes on verb"
 NA,"snh",NA,NA,NA,"Sinhala",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-348,"snm","sanu1240","xsu","Sanuma","Sanuma","NE South America",NA,"SOV",NA,"SOV","rigid","Head marking",1,"No person marking",0
+348,"snm","sanu1240","xsu","Sanuma","Sanuma","NE South America",NA,"SOV",NA,"SOV","rigid","Head marking",1,"No person marking","Obligatory pronouns in subject position"
 NA,"sno",NA,NA,NA,"Saami (Northern)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,NA
 350,"snt","nucl1632","set","Sentani","Sentani","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,NA
-355,"som","soma1255","som","Somali","Somali","Greater Abyssinia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,0
-569,"spa","stan1288","spa","Spanish","Spanish","Europe","Italic","SVO",NA,"SVO","rigid","Double marking",0,"Both the A and P arguments",1
-357,"squ","squa1248","squ","Squamish","Squamish","Alaska-Oregon","Central Coast Salish","VSO",NA,"VSO","rigid","Double marking",1,"Both the A and P arguments",1
-358,"sue","suen1241","sue","Suena","Suena","S New Guinea","North Binanderean","SOV",NA,"SOV","rigid","No marking",1,"Only the A argument",1
-497,"sup","supy1237","spp","Supyire","Supyire","African Savannah",NA,"SOV",NA,"SOV","rigid","No marking",0,"No person marking",0
-NA,"swa",NA,NA,NA,"Swahili",NA,NA,"SVO",NA,NA,NA,"Head marking",0,"Both the A and P arguments",1
-NA,"swe",NA,NA,NA,"Swedish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"tab",NA,NA,NA,"Taba",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
+355,"som","soma1255","som","Somali","Somali","Greater Abyssinia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject pronouns in different position"
+569,"spa","stan1288","spa","Spanish","Spanish","Europe","Italic","SVO",NA,"SVO","rigid","Double marking",0,"Both the A and P arguments","Subject affixes on verb"
+357,"squ","squa1248","squ","Squamish","Squamish","Alaska-Oregon","Central Coast Salish","VSO",NA,"VSO","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+358,"sue","suen1241","sue","Suena","Suena","S New Guinea","North Binanderean","SOV",NA,"SOV","rigid","No marking",1,"Only the A argument","Optional pronouns in subject position"
+497,"sup","supy1237","spp","Supyire","Supyire","African Savannah",NA,"SOV",NA,"SOV","rigid","No marking",0,"No person marking","Obligatory pronouns in subject position"
+NA,"swa",NA,NA,NA,"Swahili",NA,NA,"SVO",NA,NA,NA,"Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"swe",NA,NA,NA,"Swedish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"tab",NA,NA,NA,"Taba",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
 362,"tag","taga1270","tgl","Tagalog","Tagalog","Oceania","Western Malayo-Polynesian non-clade","VSO",NA,"VSO","rigid","Double marking",0,"No person marking",NA
-374,"tha","thai1261","tha","Thai","Thai","Southeast Asia",NA,"SVO",NA,"SVO","rigid","No marking",0,"No person marking",1
-NA,"tin",NA,NA,NA,"Tinrin",NA,NA,"No dominant order","SVO or VOS",NA,NA,NA,NA,NA,0
-378,"tiw","tiwi1244","tiw","Tiwi","Tiwi","N Australia",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments",1
-379,"tli","tlin1245","tli","Tlingit","Tlingit","Alaska-Oregon",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments",1
-NA,"tna",NA,NA,NA,"Turkana",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-383,"tru","trum1247","tpy","Trumaí","Trumai","NE South America",NA,"No dominant order","SOV or SVO","free","free","Dependent marking",1,"Only the P argument",0
-NA,"tsi",NA,NA,NA,"Tsimshian (Coast)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,0
-NA,"tuk",NA,NA,NA,"Tukang Besi",NA,NA,"VOS",NA,NA,NA,"No marking",0,"Both the A and P arguments",1
-386,"tun","tuni1252","tun","Tunica","Tunica","E North America",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
-502,"tur","nucl1301","tur","Turkish","Turkish","Greater Mesopotamia","Oghuz","SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument",1
+374,"tha","thai1261","tha","Thai","Thai","Southeast Asia",NA,"SVO",NA,"SVO","rigid","No marking",0,"No person marking","Optional pronouns in subject position"
+NA,"tin",NA,NA,NA,"Tinrin",NA,NA,"No dominant order","SVO or VOS",NA,NA,NA,NA,NA,"Subject pronouns in different position"
+378,"tiw","tiwi1244","tiw","Tiwi","Tiwi","N Australia",NA,"SVO",NA,"SVO","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+379,"tli","tlin1245","tli","Tlingit","Tlingit","Alaska-Oregon",NA,"SOV",NA,"SOV","rigid","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"tna",NA,NA,NA,"Turkana",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+383,"tru","trum1247","tpy","Trumaí","Trumai","NE South America",NA,"No dominant order","SOV or SVO","free","free","Dependent marking",1,"Only the P argument","Obligatory pronouns in subject position"
+NA,"tsi",NA,NA,NA,"Tsimshian (Coast)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"tuk",NA,NA,NA,"Tukang Besi",NA,NA,"VOS",NA,NA,NA,"No marking",0,"Both the A and P arguments","Subject affixes on verb"
+386,"tun","tuni1252","tun","Tunica","Tunica","E North America",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+502,"tur","nucl1301","tur","Turkish","Turkish","Greater Mesopotamia","Oghuz","SOV",NA,"SOV","rigid","Dependent marking",1,"Only the A argument","Subject affixes on verb"
 NA,"tvl",NA,NA,NA,"Tuvaluan",NA,NA,"OVS",NA,NA,NA,NA,NA,NA,NA
 NA,"udh",NA,NA,NA,"Udihe",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"udm",NA,NA,NA,"Udmurt",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"una",NA,NA,NA,"Una",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-390,"ung","ngar1284","ung","Ungarinjin","Ungarinjin","N Australia",NA,"OVS",NA,"OVS","rigid","Head marking",1,"Both the A and P arguments",1
+NA,"udm",NA,NA,NA,"Udmurt",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"una",NA,NA,NA,"Una",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+390,"ung","ngar1284","ung","Ungarinjin","Ungarinjin","N Australia",NA,"OVS",NA,"OVS","rigid","Head marking",1,"Both the A and P arguments","Subject affixes on verb"
 NA,"urd",NA,NA,NA,"Urdu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,NA
-NA,"urk",NA,NA,NA,"Urubú-Kaapor",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-393,"usa","usan1239","wnu","Usan","Usan","N Coast New Guinea","Numugenan","SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
-494,"vie","viet1252","vie","Vietnamese","Vietnamese","Southeast Asia","Viet-Muong","SVO",NA,"SVO","rigid","No marking",0,"No person marking",1
-NA,"wam",NA,NA,NA,"Wambaya",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,0
-576,"war","wari1268","pav","Wari","Wari'","NE South America",NA,"VOS",NA,"VOS","rigid","Head marking",0,"Both the A and P arguments",0
-406,"was","wash1253","was","Washo","Washo","California",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
+NA,"urk",NA,NA,NA,"Urubú-Kaapor",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+393,"usa","usan1239","wnu","Usan","Usan","N Coast New Guinea","Numugenan","SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+494,"vie","viet1252","vie","Vietnamese","Vietnamese","Southeast Asia","Viet-Muong","SVO",NA,"SVO","rigid","No marking",0,"No person marking","Optional pronouns in subject position"
+NA,"wam",NA,NA,NA,"Wambaya",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+576,"war","wari1268","pav","Wari","Wari'","NE South America",NA,"VOS",NA,"VOS","rigid","Head marking",0,"Both the A and P arguments","Subject pronouns in different position"
+406,"was","wash1253","was","Washo","Washo","California",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
 2124,"wch","wich1264","mzh","Wichí","Wichí","SE South America",NA,"SVO",NA,"SVO","rigid","Double marking",0,"Both the A and P arguments",NA
 NA,"wel",NA,NA,NA,"Welsh",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,NA
-577,"wic","wich1260","wic","Wichita","Wichita","Basin and Plains",NA,"No dominant order","SOV or OVS","free","free","Head marking",0,"Both the A and P arguments",1
+577,"wic","wich1260","wic","Wichita","Wichita","Basin and Plains",NA,"No dominant order","SOV or OVS","free","free","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
 409,"win","wint1259","wnw","Wintu","Wintu","California",NA,"No dominant order",NA,"free","free","Double marking",1,"Only the A argument",NA
 399,"wra","wara1303","wba","Warao",NA,"NE South America",NA,NA,NA,"xxV","flexible","Dependent marking",1,"Only the P argument",NA
-401,"wrd","ward1246","wrr","Wardaman","Wardaman","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-414,"yag","yagu1244","yad","Yagua","Yagua","NE South America",NA,"No dominant order",NA,"VSO","rigid","Other",0,"Both the A and P arguments",1
-503,"yaq","yaqu1251","yaq","Yaqui","Yaqui","Mesoamerica","Sonoran","SOV",NA,"SOV","rigid","Double marking",1,"No person marking",1
-580,"yid","yidi1250","yii","Yidiny","Yidiny","N Australia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-420,"yim","yima1243","yee","Yimas",NA,"N Coast New Guinea","Yimas-Karawari",NA,NA,"free","free","Head marking",0,"Both the A and P arguments",1
-NA,"yko",NA,NA,NA,"Yukaghir (Kolyma)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Only the A argument",1
-421,"yor","yoru1245","yor","Yoruba","Yoruba","African Savannah",NA,"SVO",NA,"SVO","rigid","Double marking",0,"No person marking",1
-455,"ypk","cent2127","esu","Yup’ik (Central)","Yup'ik (Central)","Alaska-Oregon",NA,"No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments",1
-422,"yuc","yuch1247","yuc","Yuchi","Yuchi","E North America",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments",1
-428,"yur","yuro1248","yur","Yurok","Yurok","California",NA,"No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments",1
-418,"ywl","yoku1256","yok","Yokuts (Yawelmani)","Yawelmani","California",NA,"No dominant order",NA,"SOV","rigid",NA,NA,NA,1
-492,"zqc","copa1236","zoc","Zoque (Copainalá)","Zoque (Copainalá)","Mesoamerica",NA,"VOS",NA,"VOS","rigid","Double marking",1,"Both the A and P arguments",1
-NA,"zul",NA,NA,NA,"Zulu",NA,NA,"SVO",NA,NA,NA,"Head marking",0,"Both the A and P arguments",1
+401,"wrd","ward1246","wrr","Wardaman","Wardaman","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+414,"yag","yagu1244","yad","Yagua","Yagua","NE South America",NA,"No dominant order",NA,"VSO","rigid","Other",0,"Both the A and P arguments","Subject clitics on variable host"
+503,"yaq","yaqu1251","yaq","Yaqui","Yaqui","Mesoamerica","Sonoran","SOV",NA,"SOV","rigid","Double marking",1,"No person marking","Mixed"
+580,"yid","yidi1250","yii","Yidiny","Yidiny","N Australia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Optional pronouns in subject position"
+420,"yim","yima1243","yee","Yimas",NA,"N Coast New Guinea","Yimas-Karawari",NA,NA,"free","free","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+NA,"yko",NA,NA,NA,"Yukaghir (Kolyma)",NA,NA,"SOV",NA,NA,NA,"Dependent marking",1,"Only the A argument","Subject affixes on verb"
+421,"yor","yoru1245","yor","Yoruba","Yoruba","African Savannah",NA,"SVO",NA,"SVO","rigid","Double marking",0,"No person marking","Optional pronouns in subject position"
+455,"ypk","cent2127","esu","Yup’ik (Central)","Yup'ik (Central)","Alaska-Oregon",NA,"No dominant order",NA,"free","free","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+422,"yuc","yuch1247","yuc","Yuchi","Yuchi","E North America",NA,"SOV",NA,"SOV","rigid","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+428,"yur","yuro1248","yur","Yurok","Yurok","California",NA,"No dominant order",NA,"free","free","Head marking",0,"Both the A and P arguments","Subject affixes on verb"
+418,"ywl","yoku1256","yok","Yokuts (Yawelmani)","Yawelmani","California",NA,"No dominant order",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+492,"zqc","copa1236","zoc","Zoque (Copainalá)","Zoque (Copainalá)","Mesoamerica",NA,"VOS",NA,"VOS","rigid","Double marking",1,"Both the A and P arguments","Subject affixes on verb"
+NA,"zul",NA,NA,NA,"Zulu",NA,NA,"SVO",NA,NA,NA,"Head marking",0,"Both the A and P arguments","Subject affixes on verb"
 429,"zun","zuni1245","zun","Zuni","Zuni","Basin and Plains",NA,"SOV",NA,"SOV","rigid","Double marking",0,"No person marking",NA
-NA,"aar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"abu",NA,NA,NA,"Abun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"abv",NA,NA,NA,"Abui",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"acg",NA,NA,NA,"Achagua",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"acl",NA,NA,NA,"Acholi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"aga",NA,NA,NA,"Agarabi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"agt",NA,NA,NA,"Anguthimri",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"aja",NA,NA,NA,"Aja",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"all",NA,NA,NA,"Ala'ala",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"aln",NA,NA,NA,"Alune",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-6,"amb","ambu1247","abt","Ambulas","Ambulas","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"aml",NA,NA,NA,"Ambae (Lolovoli Northeast)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-193,"amp","east2379","aer","Mparntwe Arrernte","Arrernte (Mparntwe)","S Australia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"amq",NA,NA,NA,"Ambai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"amr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-1645,"amx","anam1248","imi","Anamuxra",NA,"N Coast New Guinea","South Adelbert",NA,NA,"SOV","rigid",NA,NA,NA,1
-22,"ane","anem1249","anz","Anêm","Anêm","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"ang",NA,NA,NA,"Anggor",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"anj",NA,NA,NA,"Anejom",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,0
-NA,"any",NA,NA,NA,"Anywa",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"ao",NA,NA,NA,"Ao",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"aoj",NA,NA,NA,"Mufian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"apl",NA,NA,NA,"Apalaí",NA,NA,"No dominant order","SOV or OVS",NA,NA,NA,NA,NA,1
-NA,"apw",NA,NA,NA,"Apache (Western)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ara",NA,NA,NA,"Arawak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"arg",NA,NA,NA,"Arabic (Gulf)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"arq",NA,NA,NA,"Arabic (Iraqi)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"arw",NA,NA,NA,"Armenian (Western)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ass",NA,NA,NA,"Assamese",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"asy",NA,NA,NA,"Arabic (Syrian)",NA,NA,"No dominant order","SVO or VSO",NA,NA,NA,NA,NA,1
-NA,"ata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"ath",NA,NA,NA,"Athpare",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"awa",NA,NA,NA,"Awa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-28,"awt","awtu1239","kmn","Awtuw","Awtuw","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"ayr",NA,NA,NA,"Ayoreo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bab",NA,NA,NA,"Babungo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"bae",NA,NA,NA,"Baré",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bas",NA,NA,NA,"Basaá",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"bbl",NA,NA,NA,"Babole",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-93,"bbw","gunw1252","gup","Gunwinggu","Bininj Gun-Wok","N Australia",NA,"No dominant order",NA,"SOV","free",NA,NA,NA,1
-NA,"bco",NA,NA,NA,"Bella Coola",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-35,"bel","belh1239","byw","Belhare",NA,"Indic","Central-Eastern Kiranti",NA,NA,"SOV","rigid",NA,NA,NA,1
-1042,"bem","bemb1257","bem","Bemba",NA,"S Africa","Bantu (narrow)",NA,NA,"SVO","rigid",NA,NA,NA,1
-NA,"bfg",NA,NA,NA,"Berber (Figuig)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"bgr",NA,NA,NA,"Bagiro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bid",NA,NA,NA,"Bidiya",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"big",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"bii",NA,NA,NA,"Biri",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bik",NA,NA,NA,"Biak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bil",NA,NA,NA,"Bilua",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"bin",NA,NA,NA,"Binandere",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"bio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"bir",NA,NA,NA,"Birom",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bku",NA,NA,NA,"Bakueri",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bla",NA,NA,NA,"Blackfoot",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"ble",NA,NA,NA,"Baule",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"bln",NA,NA,NA,"Bilin",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"blx",NA,NA,NA,"Biloxi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"blz",NA,NA,NA,"Balanta",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bmb",NA,NA,NA,"Bimoba",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"bnb",NA,NA,NA,"Bunuba",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"bnn",NA,NA,NA,"Banoni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"bob",NA,NA,NA,"Bobangi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bol",NA,NA,NA,"Bolia",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bre",NA,NA,NA,"Breton",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"brf",NA,NA,NA,"Berber (Rif)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"brn",NA,NA,NA,"Burunge",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"brp",NA,NA,NA,"Barupu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-648,"brr","boro1282","bor","Bororo",NA,"NE South America",NA,NA,NA,"SOV","rigid",NA,NA,NA,1
-NA,"bsh",NA,NA,NA,"Bushoong",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-1094,"bsk","bash1264","bak","Bashkir",NA,"Inner Asia","Kipchak (Northwest Turkic)",NA,NA,"SOV","rigid",NA,NA,NA,1
-NA,"bsr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"bud",NA,NA,NA,"Buduma",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bum",NA,NA,NA,"Buma",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"bus",NA,NA,NA,"Busa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"buw",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-NA,"bvi",NA,NA,NA,"Bali-Vitu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-628,"bya","byan1241","bee","Byangsi",NA,"Indic",NA,NA,NA,"SOV","rigid",NA,NA,NA,0
-NA,"cai",NA,NA,NA,"Chai",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-1116,"cav","cavi1250","cav","Cavineña","Cavineña","NE South America",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-29,"cax","asha1243","cni","Axininca Campa","Campa (Axininca)","Andean",NA,"No dominant order",NA,"SVO","rigid",NA,NA,NA,1
-54,"cct","choc1276","cho","Choctaw","Choctaw","E North America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"cde",NA,NA,NA,"Carib (De'kwana)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"cea",NA,NA,NA,"Cree (Swampy)",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"cem",NA,NA,NA,"Cèmuhî",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,0
-49,"chc","chec1245","che","Chechen","Chechen","Greater Mesopotamia","Vainakh","SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"che",NA,NA,NA,"Cherokee",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"chg",NA,NA,NA,"Chang",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"chh",NA,NA,NA,"Chaha",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-51,"chi","chim1301","cid","Chimariko",NA,"California",NA,NA,NA,"SVO","flexible",NA,NA,NA,1
-629,"chn","chan1310","chx","Chantyal",NA,"Indic","Tamangic (TGTM)",NA,NA,"SOV","rigid",NA,NA,NA,1
-NA,"chs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-NA,"chx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"cic",NA,NA,NA,"Chichewa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"cld",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"cln",NA,NA,NA,"Cholón",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-441,"cmh","utes1238","ute","Paiute (Southern)","Chemehuevi","Basin and Plains",NA,"No dominant order",NA,"SOV","rigid",NA,NA,NA,1
-NA,"cmy",NA,NA,NA,"Chontal Maya",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"crn",NA,NA,NA,"Cornish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"cro",NA,NA,NA,"Crow",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"cti",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"cub",NA,NA,NA,"Cubeo",NA,NA,"OVS",NA,NA,NA,NA,NA,NA,1
-NA,"cup",NA,NA,NA,"Cupeño",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"cze",NA,NA,NA,"Czech",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-650,"dds","donn1238","dds","Dogon","Donno So","African Savannah",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-1276,"des","desa1247","des","Desano","Desano","NE South America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"dga",NA,NA,NA,"Dagaare",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"dgb",NA,NA,NA,"Dagbani",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"dha",NA,NA,NA,"Dhaasanac",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"dhi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-63,"die","kumi1248","dih","Diegueño","Diegueño (Mesa Grande)","Mesoamerica",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-221,"dig","diga1241","mhu","Mishmi","Digaro","Indic",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"dim",NA,NA,NA,"Dime",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"din",NA,NA,NA,"Dinka",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-NA,"djp",NA,NA,NA,"Djapu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"dlm",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"dom",NA,NA,NA,"Domari",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"doy",NA,NA,NA,"Doyayo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"dsh",NA,NA,NA,"Danish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-395,"dum","vani1248","vam","Vanimo","Dumo","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"dun",NA,NA,NA,"Duna",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ebi",NA,NA,NA,"Ebira",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-604,"efi","efik1245","efi","Efik",NA,"African Savannah",NA,NA,NA,"SVO","rigid",NA,NA,NA,1
-NA,"egn",NA,NA,NA,"Engenni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"eip",NA,NA,NA,"Eipo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"eko",NA,NA,NA,"Ekoti",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"emb",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"eme",NA,NA,NA,"Émérillon",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ene",NA,NA,NA,"Enets",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"err",NA,NA,NA,"Erromangan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"esm",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"ewo",NA,NA,NA,"Ewondo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"fri",NA,NA,NA,"Frisian",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,0
-NA,"fut",NA,NA,NA,"Futuna-Aniwa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"fye",NA,NA,NA,"Fyem",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ga",NA,NA,NA,"Gã",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"gaa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"gae",NA,NA,NA,"Gaelic (Scots)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,0
-NA,"gah",NA,NA,NA,"Gahuku",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"gds",NA,NA,NA,"Gadsup",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"gjj",NA,NA,NA,"Guajajara",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"gln",NA,NA,NA,"Golin",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"gmw",NA,NA,NA,"Gumawana",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-91,"gmz","gumu1244","guk","Gumuz","Gumuz","Greater Abyssinia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"goe",NA,NA,NA,"Goemai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"grg",NA,NA,NA,"Gurr-goni",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-2939,"grj","huar1255","var","River Warihío","Guarijío","Mesoamerica","Sonoran","No dominant order",NA,"free","free",NA,NA,NA,1
-1528,"gud","gude1246","gde","Gude","Gude","African Savannah",NA,"VSO",NA,"VSO","flexible",NA,NA,NA,0
-NA,"gul",NA,NA,NA,"Gula (in Central African Republic)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"gum",NA,NA,NA,"Gumbaynggir",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"gur",NA,NA,NA,"Gurung",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"guu",NA,NA,NA,"Guugu Yimidhirr",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"gwa",NA,NA,NA,"Gwari",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,0
-NA,"gwo",NA,NA,NA,"Gworok",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"gyc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-645,"hat","hata1243","had","Hatam","Hatam","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"haw",NA,NA,NA,"Hawaiian",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-632,"hay","wayu1241","vay","Hayu","Hayu","Indic","Western Kiranti","SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"heh",NA,NA,NA,"Hehe",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"hei",NA,NA,NA,"Heiltsuk",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-1623,"hlu","halk1245","hur","Halkomelem","Halkomelem (Upriver)","Alaska-Oregon","Central Coast Salish","VSO",NA,"VSO","rigid",NA,NA,NA,1
-NA,"hma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-NA,"hnd",NA,NA,NA,"Hunde",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"hya",NA,NA,NA,"Haya",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"iba",NA,NA,NA,"Iban",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ifu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"ige",NA,NA,NA,"Igede",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-111,"ik","ikkk1242","ikx","Ik","Ik","S Africa",NA,"VSO",NA,"VSO","flexible",NA,NA,NA,1
-NA,"ila",NA,NA,NA,"Ila",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ina",NA,NA,NA,"Inanwatan",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-NA,"isa",NA,NA,NA,"I'saka",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-116,"ite","itel1242","itl","Itelmen","Itelmen","N Coast Asia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"ito",NA,NA,NA,"Itonama",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"izi",NA,NA,NA,"Izi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"jab",NA,NA,NA,"Jabêm",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"jam",NA,NA,NA,"Jaminjung",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"jmo",NA,NA,NA,"Jur Mödö",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"jng",NA,NA,NA,"Jingpho",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"juk",NA,NA,NA,"Jukun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"jwr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"kaa",NA,NA,NA,"Karó (Arára)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kab",NA,NA,NA,"Kabardian",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kae",NA,NA,NA,"Kaki Ae",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kam",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"kan",NA,NA,NA,"Kana",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kau",NA,NA,NA,"Kaulong",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kba",NA,NA,NA,"Kamba",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kby",NA,NA,NA,"Kabiyé",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-443,"kch","koyr1240","khq","Songhai (Koyra Chiini)","Koyra Chiini","African Savannah",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,0
-NA,"kdw",NA,NA,NA,"Kadiwéu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kel",NA,NA,NA,"Kele",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ken",NA,NA,NA,"Kenga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kga",NA,NA,NA,"Kinga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kgr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"kgz",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"kik",NA,NA,NA,"Kikuyu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kis",NA,NA,NA,"Kisi",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,0
-NA,"kkt",NA,NA,NA,"Kokota",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,0
-NA,"kku",NA,NA,NA,"Korku",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kkv",NA,NA,NA,"Lusi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"klm",NA,NA,NA,"Klamath",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"kma",NA,NA,NA,"Kamaiurá",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kmh",NA,NA,NA,"Kham",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kmj",NA,NA,NA,"Karimojong",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"kmp",NA,NA,NA,"Kunimaipa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kms",NA,NA,NA,"Kamass",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kmz",NA,NA,NA,"Kamasau",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"knc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"kno",NA,NA,NA,"Kanoê",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"knw",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"koe",NA,NA,NA,"Koegu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"krc",NA,NA,NA,"Karachay-Balkar",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"krd",NA,NA,NA,"Kurdish (Central)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kre",NA,NA,NA,"Kresh",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"krn",NA,NA,NA,"Korana",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"krr",NA,NA,NA,"Kairiru",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-656,"krw","koro1312","khe","Korowai","Korowai","S New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-2958,"ksa","east1472","kee","Keresan (Laguna)","Keresan (Santa Ana)","Basin and Plains",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-NA,"kwa",NA,NA,NA,"Kwaio",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-152,"kwk","kwak1269","kwk","Kwakwala","Kwakw'ala","Alaska-Oregon",NA,"No dominant order","SVO or VSO","free","free",NA,NA,NA,1
-NA,"kwn",NA,NA,NA,"Kwangali",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"kwt",NA,NA,NA,"Kwomtari",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kwz",NA,NA,NA,"Kwaza",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-NA,"kxo",NA,NA,NA,"Kxoe",NA,NA,"OSV",NA,NA,NA,NA,NA,NA,1
-NA,"kyk",NA,NA,NA,"Kyaka",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"kyr",NA,NA,NA,"Karkar-Yuri",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"laa",NA,NA,NA,"Laal",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-225,"lah","lahu1253","lhu","Lahu","Lahu","Southeast Asia","Loloish","SOV",NA,"SOV","rigid",NA,NA,NA,1
-154,"lai","haka1240","cnh","Hakka Lai","Lai","Southeast Asia","Central Chin","SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"lal",NA,NA,NA,"Lalo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"lbu",NA,NA,NA,"Lunda",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-165,"lda","gand1255","lug","Luganda",NA,"S Africa","Bantu (narrow)",NA,NA,"SVO","rigid",NA,NA,NA,1
-NA,"ldo",NA,NA,NA,"Londo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"leg",NA,NA,NA,"Lega",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"lel",NA,NA,NA,"Lele",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"len",NA,NA,NA,"Lenakel",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"let",NA,NA,NA,"Leti",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"lgi",NA,NA,NA,"Langi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"lgu",NA,NA,NA,"Longgu",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,0
-NA,"lil",NA,NA,NA,"Lillooet",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-674,"lim","limb1266","lif","Limbu",NA,"Indic","Central-Eastern Kiranti",NA,NA,"SOV","rigid",NA,NA,NA,1
-NA,"lin",NA,NA,NA,"Lingala",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"llm",NA,NA,NA,"Lelemi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"lmb",NA,NA,NA,"Lamba",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,0
-692,"lml","nucl1327","lmc","Limilngan","Limilngan","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-NA,"lmn",NA,NA,NA,"Lamani",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"lmp",NA,NA,NA,"Lampung",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"lon",NA,NA,NA,"Loniu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"lou",NA,NA,NA,"Lou",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"luc",NA,NA,NA,"Lucazi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"lul",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"luo",NA,NA,NA,"Luo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"luy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-167,"maa","masa1300","mas","Maa","Maasai","S Africa","Lotuko-Maa","VSO",NA,"VSO","rigid",NA,NA,NA,1
-NA,"mac",NA,NA,NA,"Macushi",NA,NA,"No dominant order","SOV or OVS",NA,NA,NA,NA,NA,1
-NA,"mad",NA,NA,NA,"Ma'di",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,0
-NA,"mae",NA,NA,NA,"Mae",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"maj",NA,NA,NA,"Majang",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"mas",NA,NA,NA,"Masa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mbl",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"mbo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"mbr",NA,NA,NA,"Mbara",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"mbt",NA,NA,NA,"Mangbetu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mby",NA,NA,NA,"Mbay",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mcc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-2050,"mcv","moco1246","moc","Mocoví","Mocoví","SE South America",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"mdn",NA,NA,NA,"Mandan",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mea",NA,NA,NA,"Meyah",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mee",NA,NA,NA,"Me'en",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"meh",NA,NA,NA,"Mehri",NA,NA,"No dominant order","SVO or VSO",NA,NA,NA,NA,NA,1
-NA,"mek",NA,NA,NA,"Mekens",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"men",NA,NA,NA,"Menomini",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"mgg",NA,NA,NA,"Mangghuer",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mgu",NA,NA,NA,"Musgu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"mhu",NA,NA,NA,"Mbalanhu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"min",NA,NA,NA,"Minangkabau",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"mir",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-2023,"miy","miya1266","mkf","Miya","Miya","African Savannah","West - B (West Chadic)","No dominant order","SVO or VOS","SVO","flexible",NA,NA,NA,0
-NA,"miz",NA,NA,NA,"Mizo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"mka",NA,NA,NA,"Mauka",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"mkd",NA,NA,NA,"Makonde",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mki",NA,NA,NA,"Mikasuki",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mlg",NA,NA,NA,"Malgwa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mlm",NA,NA,NA,"Mlabri (Minor)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mlu",NA,NA,NA,"Maleu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mme",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"mmw",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"mna",NA,NA,NA,"Muna",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-168,"mne","nort2952","nmu","Maidu (Northeast)","Maidu (Northeast)","California",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"mnm",NA,NA,NA,"Manam",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mns",NA,NA,NA,"Mansi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mny",NA,NA,NA,"Margany",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"mof",NA,NA,NA,"Mofu-Gudur",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"moh",NA,NA,NA,"Mohawk",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"mon",NA,NA,NA,"Mon",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"moo",NA,NA,NA,"Mooré",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"mou",NA,NA,NA,"Moru",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-NA,"mpr",NA,NA,NA,"Maipure",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-2984,"mpt","mian1256","mpt","Mian","Mian","Interior New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"mpu",NA,NA,NA,"Mpur",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mra",NA,NA,NA,"Mara",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"mro",NA,NA,NA,"Moro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"msc",NA,NA,NA,"Muisca",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"msl",NA,NA,NA,"Masalit",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"mtb",NA,NA,NA,"Matuumbi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mua",NA,NA,NA,"Makua",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mum",NA,NA,NA,"Mumuye",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-2498,"mup","mwag1236","sur","Mupun","Mupun","African Savannah","West - A (West Chadic)","SVO",NA,"SVO","rigid",NA,NA,NA,0
-NA,"mus",NA,NA,NA,"Mussau",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"mut",NA,NA,NA,"Mutsun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"mwb",NA,NA,NA,"Manobo (Western Bukidnon)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,0
-NA,"mzh",NA,NA,NA,"Mazatec (Huautla)",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"nab",NA,NA,NA,"Nabak",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"nag",NA,NA,NA,"Nagatman",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"naj",NA,NA,NA,"Neo-Aramaic (Arbel Jewish)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"nak",NA,NA,NA,"Nakanai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"nal",NA,NA,NA,"Nalik",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"nam",NA,NA,NA,"Namia",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"nan",NA,NA,NA,"Nandi",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"nbm",NA,NA,NA,"Ngbaka (Ma'bo)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ndb",NA,NA,NA,"Ndebele (in South Africa)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-661,"ndj","djee1236","djj","Ndjebbana","Ndjébbana","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-NA,"ndo",NA,NA,NA,"Ndonga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"ndt",NA,NA,NA,"Ndut",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"nga",NA,NA,NA,"Nganasan",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ngj",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-NA,"ngo",NA,NA,NA,"Ngoni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ngz",NA,NA,NA,"Ngizim",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"nha",NA,NA,NA,"Nhanda",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"nhh",NA,NA,NA,"Nahuatl (Huasteca)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-2145,"nhm","mich1245","ncl","Nahuatl (Michoacan)","Nahuatl (Michoacán)","Mesoamerica","Aztecan","SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"nhn",NA,NA,NA,"Nahuatl (North Puebla)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"nia",NA,NA,NA,"Nias",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,1
-NA,"nis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"niu",NA,NA,NA,"Niuean",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"nke",NA,NA,NA,"Nkem",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-200,"nmb","sout2994","nab","Nambikwara","Nambikuára (Southern)","NE South America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"nnd",NA,NA,NA,"Nend",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"non",NA,NA,NA,"Noni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"nor",NA,NA,NA,"Norwegian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"nph",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"nse",NA,NA,NA,"Nsenga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-654,"nsg","nisg1240","ncg","Nisgha","Nisgha","Alaska-Oregon",NA,"VSO",NA,"VSO","rigid",NA,NA,NA,0
-NA,"nsn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"ntj",NA,NA,NA,"Ngaanyatjarra",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"nua",NA,NA,NA,"Nuaulu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"nue",NA,NA,NA,"Nuer",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,1
-NA,"nuu",NA,NA,NA,"Nuuchahnulth",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,1
-640,"nwd","newa1246","new","Newar (Kathmandu)","Newar (Dolakha)","Indic",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-2233,"nya","nyaw1247","nyt","Nyawaygi",NA,"N Australia",NA,NA,NA,"free","free",NA,NA,NA,0
-NA,"nym",NA,NA,NA,"Nyamwezi",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-319,"nyn","nyig1240","nyh","Nyigina","Nyigina","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-NA,"nyu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"obg",NA,NA,NA,"Ogbronuagum",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"obo",NA,NA,NA,"Obolo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ocu",NA,NA,NA,"Ocuilteco",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"oji",NA,NA,NA,"Ojibwa (Eastern)",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,1
-NA,"olo",NA,NA,NA,"Olo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-328,"ood","toho1245","ood","O’odham","O'odham","Basin and Plains","Sonoran","No dominant order",NA,"Vxx","flexible",NA,NA,NA,1
-NA,"oro",NA,NA,NA,"Orokaiva",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ory",NA,NA,NA,"Orya",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"osa",NA,NA,NA,"Osage",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-498,"otm","mezq1235","ote","Otomi (Mezquital)","Otomí (Mezquital)","Mesoamerica",NA,"VOS",NA,"VOS","rigid",NA,NA,NA,1
-NA,"pam",NA,NA,NA,"Pame",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-2306,"pga","pila1245","plg","Pilagá","Pilagá","SE South America",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"pkn",NA,NA,NA,"Paakantyi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"pkt",NA,NA,NA,"Pokot",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"plh",NA,NA,NA,"Paulohi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"plk",NA,NA,NA,"Palikur",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"pno",NA,NA,NA,"Paiute (Northern)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"pog",NA,NA,NA,"Pogoro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"por",NA,NA,NA,"Portuguese",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"pra",NA,NA,NA,"Prasuni",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"pre",NA,NA,NA,"Pare",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"pul",NA,NA,NA,"Puluwat",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"pwn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"qum",NA,NA,NA,"Sipakapense",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"rem",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"rim",NA,NA,NA,"Rimi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"rit",NA,NA,NA,"Ritharngu",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"rny",NA,NA,NA,"Runyankore",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ron",NA,NA,NA,"Ron",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"rov",NA,NA,NA,"Roviana",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,0
-NA,"rru",NA,NA,NA,"Runyoro-Rutooro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ruk",NA,NA,NA,"Rukai (Tanan)",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,1
-NA,"rum",NA,NA,NA,"Rumu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"run",NA,NA,NA,"Runga",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"rut",NA,NA,NA,"Rutul",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-343,"sah","sahu1245","saj","Sahu","Sahu","Oceania",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,0
-NA,"sak",NA,NA,NA,"Sakao",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"sap",NA,NA,NA,"Sapuan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"sar",NA,NA,NA,"Sare",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-347,"sdw","sand1273","sad","Sandawe","Sandawe","S Africa",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,0
-NA,"ser",NA,NA,NA,"Seri",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"ses",NA,NA,NA,"Sesotho",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"sgb",NA,NA,NA,"Sougb",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"sgl",NA,NA,NA,"Sengele",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"sgu",NA,NA,NA,"Sangu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"shm",NA,NA,NA,"Shambala",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"shp",NA,NA,NA,"Sahaptin (Northern)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"shu",NA,NA,NA,"Shuswap",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,1
-NA,"sid",NA,NA,NA,"Sidaama",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"sio",NA,NA,NA,"Sio",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"sis",NA,NA,NA,"Sisiqa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-442,"siu","sius1254","sis","Siuslaw (Lower Umpqua)","Siuslaw","Alaska-Oregon",NA,"No dominant order",NA,"Vxx","flexible",NA,NA,NA,1
-NA,"skm",NA,NA,NA,"Sukuma",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"skp",NA,NA,NA,"Selkup",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"slb",NA,NA,NA,"Saliba (in Papua New Guinea)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"slo",NA,NA,NA,"Slovene",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"snn",NA,NA,NA,"Soninke",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"so",NA,NA,NA,"So",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"sob",NA,NA,NA,"Sobei",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"srb",NA,NA,NA,"Sorbian",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"src",NA,NA,NA,"Sarcee",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"sro",NA,NA,NA,"Siroi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"stn",NA,NA,NA,"Sotho (Northern)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-359,"sul","sulk1246","sua","Sulka","Sulka","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"taf",NA,NA,NA,"Taiof",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"taj",NA,NA,NA,"Tajik",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"tar",NA,NA,NA,"Tariana",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-367,"tau","tauy1241","tya","Tauya","Tauya","Interior New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"tbl",NA,NA,NA,"Tabla",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"tbw",NA,NA,NA,"Tabwa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ten",NA,NA,NA,"Tennet",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"tep",NA,NA,NA,"Tepehua (Tlachichilco)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"tes",NA,NA,NA,"Teso",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"tet",NA,NA,NA,"Tetela",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"tgh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"tgk",NA,NA,NA,"Tigak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"tgn",NA,NA,NA,"Tugun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"tgr",NA,NA,NA,"Tigré",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"thy",NA,NA,NA,"Kuuk Thaayorre",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"tid",NA,NA,NA,"Tidore",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"tim",NA,NA,NA,"Timugon",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"tiv",NA,NA,NA,"Tiv",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-63,"tja","kumi1248","dih","Diegueño","Tiipay (Jamul)","Mesoamerica",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"tki",NA,NA,NA,"Tuki",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-363,"tkl","take1257","tkm","Takelma","Takelma","California",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"tkm",NA,NA,NA,"Turkmen",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"tla",NA,NA,NA,"Tolai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"tlo",NA,NA,NA,"Tobelo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-377,"tmc","timu1245","tjm","Timucua","Timucua","E North America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-371,"tmr","temi1246","tea","Temiar","Temiar","Southeast Asia","Aslian","SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"tnc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"tnk",NA,NA,NA,"Tungak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"tob",NA,NA,NA,"Toba",NA,NA,"No dominant order","SVO or VOS",NA,NA,NA,NA,NA,1
-382,"ton","tonk1249","tqw","Tonkawa","Tonkawa","Basin and Plains",NA,"No dominant order","SOV or SVO","SOV","rigid",NA,NA,NA,1
-NA,"toz",NA,NA,NA,"Tonga (in Zambia)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"tpn",NA,NA,NA,"Tepehuan (Northern)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-2544,"tps","sout2976","stp","Tepehuan (Southeastern)",NA,"Mesoamerica","Sonoran",NA,NA,"Vxx","flexible",NA,NA,NA,1
-NA,"trb",NA,NA,NA,"Teribe",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"trr",NA,NA,NA,"Tairora",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"tsk",NA,NA,NA,"Tamashek",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"tsn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-1263,"tsz","dido1241","ddo","Tsez","Tsez","Greater Mesopotamia","Tsezic","SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"tte",NA,NA,NA,"Tutelo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"tus",NA,NA,NA,"Tuscarora",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-387,"tuv","tuvi1240","tyv","Tuva","Tuvan","Inner Asia","Northern Turkish","SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"tvo",NA,NA,NA,"Tatar",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"tvt",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-NA,"uby",NA,NA,NA,"Ubykh",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"uhi",NA,NA,NA,"Uradhi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"ukr",NA,NA,NA,"Ukrainian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"uld",NA,NA,NA,"Uldeme",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"ura",NA,NA,NA,"Ura",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"url",NA,NA,NA,"Urak Lawoi'",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"urn",NA,NA,NA,"Urarina",NA,NA,"OVS",NA,NA,NA,NA,NA,NA,1
-NA,"usr",NA,NA,NA,"Usarufa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-441,"ute","utes1238","ute","Paiute (Southern)","Ute","Basin and Plains",NA,"No dominant order",NA,"SOV","rigid",NA,NA,NA,1
-NA,"uyg",NA,NA,NA,"Uyghur",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"uzb",NA,NA,NA,"Uzbek",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"vai",NA,NA,NA,"Vai",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"ven",NA,NA,NA,"Venda",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"wai",NA,NA,NA,"Wai Wai",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"wal",NA,NA,NA,"Walman",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"wat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"way",NA,NA,NA,"Wayampi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"wed",NA,NA,NA,"Wedau",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,0
-NA,"wir",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-412,"wiy","wiyo1248","wiy","Wiyot","Wiyot","California",NA,"No dominant order",NA,"free","free",NA,NA,NA,1
-NA,"wlf",NA,NA,NA,"Wolof",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"wlm",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-NA,"wma",NA,NA,NA,"West Makian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"wol",NA,NA,NA,"Woleaian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"wrb",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-NA,"wrg",NA,NA,NA,"Warrgamay",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"wrk",NA,NA,NA,"Warekena",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-404,"wrl","warl1254","wbp","Warlpiri","Warlpiri","S Australia","Ngarrka","No dominant order",NA,"free","free",NA,NA,NA,1
-402,"wrm","ware1253","wsa","Warembori","Warembori","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"wrw",NA,NA,NA,"Warrwa",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-400,"wry","wara1290","wrz","Waray","Waray (in Australia)","N Australia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"wth",NA,NA,NA,"Wathawurrung",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,1
-NA,"wya",NA,NA,NA,"Wyandot",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,1
-NA,"xho",NA,NA,NA,"Xhosa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,0
-NA,"yah",NA,NA,NA,"Yahgan",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"yal",NA,NA,NA,"Yale (Kosarek)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-NA,"yao",NA,NA,NA,"Yao (in Malawi)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"yar",NA,NA,NA,"Yareba",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-2779,"yel","yele1255","yle","Yelî Dnye","Yelî Dnye","S New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,1
-103,"ygr","yaga1260","ygr","Hua","Yagaria","Interior New Guinea","Kamano-Yagaria","SOV",NA,"SOV","rigid",NA,NA,NA,1
-NA,"yin",NA,NA,NA,"Yindjibarndi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-NA,"yng",NA,NA,NA,"Yingkarta",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,1
-424,"yuk","gang1267","gcd","Yukulta","Yukulta","N Australia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,1
-NA,"yuw",NA,NA,NA,"Yuwaalaraay",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
-459,"zai","isth1244","zai","Zapotec (Isthmus)","Zapotec (Isthmus)","Mesoamerica",NA,"VSO",NA,"VSO","rigid",NA,NA,NA,1
-NA,"zap",NA,NA,NA,"Zapotec (Mitla)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,1
-NA,"zay",NA,NA,NA,"Zayse",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,1
+NA,"aar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"abu",NA,NA,NA,"Abun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"abv",NA,NA,NA,"Abui",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"acg",NA,NA,NA,"Achagua",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"acl",NA,NA,NA,"Acholi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"aga",NA,NA,NA,"Agarabi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"agt",NA,NA,NA,"Anguthimri",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"aja",NA,NA,NA,"Aja",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"all",NA,NA,NA,"Ala'ala",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"aln",NA,NA,NA,"Alune",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+6,"amb","ambu1247","abt","Ambulas","Ambulas","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"aml",NA,NA,NA,"Ambae (Lolovoli Northeast)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+193,"amp","east2379","aer","Mparntwe Arrernte","Arrernte (Mparntwe)","S Australia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"amq",NA,NA,NA,"Ambai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"amr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+1645,"amx","anam1248","imi","Anamuxra",NA,"N Coast New Guinea","South Adelbert",NA,NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+22,"ane","anem1249","anz","Anêm","Anêm","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"ang",NA,NA,NA,"Anggor",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"anj",NA,NA,NA,"Anejom",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"any",NA,NA,NA,"Anywa",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ao",NA,NA,NA,"Ao",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"aoj",NA,NA,NA,"Mufian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"apl",NA,NA,NA,"Apalaí",NA,NA,"No dominant order","SOV or OVS",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"apw",NA,NA,NA,"Apache (Western)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ara",NA,NA,NA,"Arawak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"arg",NA,NA,NA,"Arabic (Gulf)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"arq",NA,NA,NA,"Arabic (Iraqi)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"arw",NA,NA,NA,"Armenian (Western)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ass",NA,NA,NA,"Assamese",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"asy",NA,NA,NA,"Arabic (Syrian)",NA,NA,"No dominant order","SVO or VSO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"ath",NA,NA,NA,"Athpare",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"awa",NA,NA,NA,"Awa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+28,"awt","awtu1239","kmn","Awtuw","Awtuw","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Optional pronouns in subject position"
+NA,"ayr",NA,NA,NA,"Ayoreo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bab",NA,NA,NA,"Babungo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"bae",NA,NA,NA,"Baré",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bas",NA,NA,NA,"Basaá",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"bbl",NA,NA,NA,"Babole",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+93,"bbw","gunw1252","gup","Gunwinggu","Bininj Gun-Wok","N Australia",NA,"No dominant order",NA,"SOV","free",NA,NA,NA,"Subject affixes on verb"
+NA,"bco",NA,NA,NA,"Bella Coola",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+35,"bel","belh1239","byw","Belhare",NA,"Indic","Central-Eastern Kiranti",NA,NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+1042,"bem","bemb1257","bem","Bemba",NA,"S Africa","Bantu (narrow)",NA,NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"bfg",NA,NA,NA,"Berber (Figuig)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bgr",NA,NA,NA,"Bagiro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bid",NA,NA,NA,"Bidiya",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"big",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bii",NA,NA,NA,"Biri",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bik",NA,NA,NA,"Biak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bil",NA,NA,NA,"Bilua",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"bin",NA,NA,NA,"Binandere",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bir",NA,NA,NA,"Birom",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bku",NA,NA,NA,"Bakueri",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bla",NA,NA,NA,"Blackfoot",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"ble",NA,NA,NA,"Baule",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"bln",NA,NA,NA,"Bilin",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"blx",NA,NA,NA,"Biloxi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"blz",NA,NA,NA,"Balanta",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bmb",NA,NA,NA,"Bimoba",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"bnb",NA,NA,NA,"Bunuba",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bnn",NA,NA,NA,"Banoni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"bob",NA,NA,NA,"Bobangi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bol",NA,NA,NA,"Bolia",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bre",NA,NA,NA,"Breton",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"brf",NA,NA,NA,"Berber (Rif)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"brn",NA,NA,NA,"Burunge",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"brp",NA,NA,NA,"Barupu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+648,"brr","boro1282","bor","Bororo",NA,"NE South America",NA,NA,NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"bsh",NA,NA,NA,"Bushoong",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+1094,"bsk","bash1264","bak","Bashkir",NA,"Inner Asia","Kipchak (Northwest Turkic)",NA,NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"bsr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bud",NA,NA,NA,"Buduma",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"bum",NA,NA,NA,"Buma",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"bus",NA,NA,NA,"Busa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"buw",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"bvi",NA,NA,NA,"Bali-Vitu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+628,"bya","byan1241","bee","Byangsi",NA,"Indic",NA,NA,NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"cai",NA,NA,NA,"Chai",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+1116,"cav","cavi1250","cav","Cavineña","Cavineña","NE South America",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Mixed"
+29,"cax","asha1243","cni","Axininca Campa","Campa (Axininca)","Andean",NA,"No dominant order",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+54,"cct","choc1276","cho","Choctaw","Choctaw","E North America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"cde",NA,NA,NA,"Carib (De'kwana)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cea",NA,NA,NA,"Cree (Swampy)",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"cem",NA,NA,NA,"Cèmuhî",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+49,"chc","chec1245","che","Chechen","Chechen","Greater Mesopotamia","Vainakh","SOV",NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"che",NA,NA,NA,"Cherokee",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"chg",NA,NA,NA,"Chang",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"chh",NA,NA,NA,"Chaha",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+51,"chi","chim1301","cid","Chimariko",NA,"California",NA,NA,NA,"SVO","flexible",NA,NA,NA,"Subject affixes on verb"
+629,"chn","chan1310","chx","Chantyal",NA,"Indic","Tamangic (TGTM)",NA,NA,"SOV","rigid",NA,NA,NA,"Optional pronouns in subject position"
+NA,"chs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"chx",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cic",NA,NA,NA,"Chichewa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cld",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cln",NA,NA,NA,"Cholón",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+441,"cmh","utes1238","ute","Paiute (Southern)","Chemehuevi","Basin and Plains",NA,"No dominant order",NA,"SOV","rigid",NA,NA,NA,"Subject clitics on variable host"
+NA,"cmy",NA,NA,NA,"Chontal Maya",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"crn",NA,NA,NA,"Cornish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cro",NA,NA,NA,"Crow",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cti",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"cub",NA,NA,NA,"Cubeo",NA,NA,"OVS",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"cup",NA,NA,NA,"Cupeño",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"cze",NA,NA,NA,"Czech",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+650,"dds","donn1238","dds","Dogon","Donno So","African Savannah",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+1276,"des","desa1247","des","Desano","Desano","NE South America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"dga",NA,NA,NA,"Dagaare",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"dgb",NA,NA,NA,"Dagbani",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"dha",NA,NA,NA,"Dhaasanac",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"dhi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+63,"die","kumi1248","dih","Diegueño","Diegueño (Mesa Grande)","Mesoamerica",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+221,"dig","diga1241","mhu","Mishmi","Digaro","Indic",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"dim",NA,NA,NA,"Dime",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"din",NA,NA,NA,"Dinka",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Mixed"
+NA,"djp",NA,NA,NA,"Djapu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"dlm",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"dom",NA,NA,NA,"Domari",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"doy",NA,NA,NA,"Doyayo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"dsh",NA,NA,NA,"Danish",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+395,"dum","vani1248","vam","Vanimo","Dumo","N Coast New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"dun",NA,NA,NA,"Duna",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"ebi",NA,NA,NA,"Ebira",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+604,"efi","efik1245","efi","Efik",NA,"African Savannah",NA,NA,NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"egn",NA,NA,NA,"Engenni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"eip",NA,NA,NA,"Eipo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"eko",NA,NA,NA,"Ekoti",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"emb",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"eme",NA,NA,NA,"Émérillon",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ene",NA,NA,NA,"Enets",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"err",NA,NA,NA,"Erromangan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"esm",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ewo",NA,NA,NA,"Ewondo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"fri",NA,NA,NA,"Frisian",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"fut",NA,NA,NA,"Futuna-Aniwa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"fye",NA,NA,NA,"Fyem",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"ga",NA,NA,NA,"Gã",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gaa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gae",NA,NA,NA,"Gaelic (Scots)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"gah",NA,NA,NA,"Gahuku",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gds",NA,NA,NA,"Gadsup",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gjj",NA,NA,NA,"Guajajara",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gln",NA,NA,NA,"Golin",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gmw",NA,NA,NA,"Gumawana",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+91,"gmz","gumu1244","guk","Gumuz","Gumuz","Greater Abyssinia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"goe",NA,NA,NA,"Goemai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"grg",NA,NA,NA,"Gurr-goni",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+2939,"grj","huar1255","var","River Warihío","Guarijío","Mesoamerica","Sonoran","No dominant order",NA,"free","free",NA,NA,NA,"Subject clitics on variable host"
+1528,"gud","gude1246","gde","Gude","Gude","African Savannah",NA,"VSO",NA,"VSO","flexible",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"gul",NA,NA,NA,"Gula (in Central African Republic)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"gum",NA,NA,NA,"Gumbaynggir",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"gur",NA,NA,NA,"Gurung",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"guu",NA,NA,NA,"Guugu Yimidhirr",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"gwa",NA,NA,NA,"Gwari",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"gwo",NA,NA,NA,"Gworok",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"gyc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+645,"hat","hata1243","had","Hatam","Hatam","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"haw",NA,NA,NA,"Hawaiian",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+632,"hay","wayu1241","vay","Hayu","Hayu","Indic","Western Kiranti","SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"heh",NA,NA,NA,"Hehe",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"hei",NA,NA,NA,"Heiltsuk",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+1623,"hlu","halk1245","hur","Halkomelem","Halkomelem (Upriver)","Alaska-Oregon","Central Coast Salish","VSO",NA,"VSO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"hma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"hnd",NA,NA,NA,"Hunde",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"hya",NA,NA,NA,"Haya",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"iba",NA,NA,NA,"Iban",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ifu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ige",NA,NA,NA,"Igede",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+111,"ik","ikkk1242","ikx","Ik","Ik","S Africa",NA,"VSO",NA,"VSO","flexible",NA,NA,NA,"Subject affixes on verb"
+NA,"ila",NA,NA,NA,"Ila",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ina",NA,NA,NA,"Inanwatan",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"isa",NA,NA,NA,"I'saka",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+116,"ite","itel1242","itl","Itelmen","Itelmen","N Coast Asia",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"ito",NA,NA,NA,"Itonama",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"izi",NA,NA,NA,"Izi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"jab",NA,NA,NA,"Jabêm",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"jam",NA,NA,NA,"Jaminjung",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"jmo",NA,NA,NA,"Jur Mödö",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"jng",NA,NA,NA,"Jingpho",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"juk",NA,NA,NA,"Jukun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"jwr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"kaa",NA,NA,NA,"Karó (Arára)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"kab",NA,NA,NA,"Kabardian",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kae",NA,NA,NA,"Kaki Ae",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kam",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kan",NA,NA,NA,"Kana",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kau",NA,NA,NA,"Kaulong",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"kba",NA,NA,NA,"Kamba",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kby",NA,NA,NA,"Kabiyé",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+443,"kch","koyr1240","khq","Songhai (Koyra Chiini)","Koyra Chiini","African Savannah",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"kdw",NA,NA,NA,"Kadiwéu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kel",NA,NA,NA,"Kele",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ken",NA,NA,NA,"Kenga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"kga",NA,NA,NA,"Kinga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kgr",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kgz",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kik",NA,NA,NA,"Kikuyu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kis",NA,NA,NA,"Kisi",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"kkt",NA,NA,NA,"Kokota",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"kku",NA,NA,NA,"Korku",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"kkv",NA,NA,NA,"Lusi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"klm",NA,NA,NA,"Klamath",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"kma",NA,NA,NA,"Kamaiurá",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kmh",NA,NA,NA,"Kham",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kmj",NA,NA,NA,"Karimojong",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kmp",NA,NA,NA,"Kunimaipa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kms",NA,NA,NA,"Kamass",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kmz",NA,NA,NA,"Kamasau",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"knc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"kno",NA,NA,NA,"Kanoê",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"knw",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"koe",NA,NA,NA,"Koegu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"krc",NA,NA,NA,"Karachay-Balkar",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"krd",NA,NA,NA,"Kurdish (Central)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kre",NA,NA,NA,"Kresh",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"krn",NA,NA,NA,"Korana",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"krr",NA,NA,NA,"Kairiru",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+656,"krw","koro1312","khe","Korowai","Korowai","S New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+2958,"ksa","east1472","kee","Keresan (Laguna)","Keresan (Santa Ana)","Basin and Plains",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"kwa",NA,NA,NA,"Kwaio",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+152,"kwk","kwak1269","kwk","Kwakwala","Kwakw'ala","Alaska-Oregon",NA,"No dominant order","SVO or VSO","free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"kwn",NA,NA,NA,"Kwangali",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kwt",NA,NA,NA,"Kwomtari",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kwz",NA,NA,NA,"Kwaza",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kxo",NA,NA,NA,"Kxoe",NA,NA,"OSV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"kyk",NA,NA,NA,"Kyaka",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"kyr",NA,NA,NA,"Karkar-Yuri",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"laa",NA,NA,NA,"Laal",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+225,"lah","lahu1253","lhu","Lahu","Lahu","Southeast Asia","Loloish","SOV",NA,"SOV","rigid",NA,NA,NA,"Optional pronouns in subject position"
+154,"lai","haka1240","cnh","Hakka Lai","Lai","Southeast Asia","Central Chin","SOV",NA,"SOV","rigid",NA,NA,NA,"Subject pronouns in different position"
+NA,"lal",NA,NA,NA,"Lalo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"lbu",NA,NA,NA,"Lunda",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+165,"lda","gand1255","lug","Luganda",NA,"S Africa","Bantu (narrow)",NA,NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"ldo",NA,NA,NA,"Londo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"leg",NA,NA,NA,"Lega",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"lel",NA,NA,NA,"Lele",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"len",NA,NA,NA,"Lenakel",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"let",NA,NA,NA,"Leti",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"lgi",NA,NA,NA,"Langi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"lgu",NA,NA,NA,"Longgu",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"lil",NA,NA,NA,"Lillooet",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+674,"lim","limb1266","lif","Limbu",NA,"Indic","Central-Eastern Kiranti",NA,NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"lin",NA,NA,NA,"Lingala",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"llm",NA,NA,NA,"Lelemi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"lmb",NA,NA,NA,"Lamba",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+692,"lml","nucl1327","lmc","Limilngan","Limilngan","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"lmn",NA,NA,NA,"Lamani",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"lmp",NA,NA,NA,"Lampung",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"lon",NA,NA,NA,"Loniu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"lou",NA,NA,NA,"Lou",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"luc",NA,NA,NA,"Lucazi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"lul",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"luo",NA,NA,NA,"Luo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"luy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+167,"maa","masa1300","mas","Maa","Maasai","S Africa","Lotuko-Maa","VSO",NA,"VSO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"mac",NA,NA,NA,"Macushi",NA,NA,"No dominant order","SOV or OVS",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mad",NA,NA,NA,"Ma'di",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"mae",NA,NA,NA,"Mae",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"maj",NA,NA,NA,"Majang",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mas",NA,NA,NA,"Masa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"mbl",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mbo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mbr",NA,NA,NA,"Mbara",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"mbt",NA,NA,NA,"Mangbetu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mby",NA,NA,NA,"Mbay",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mcc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+2050,"mcv","moco1246","moc","Mocoví","Mocoví","SE South America",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"mdn",NA,NA,NA,"Mandan",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mea",NA,NA,NA,"Meyah",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mee",NA,NA,NA,"Me'en",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"meh",NA,NA,NA,"Mehri",NA,NA,"No dominant order","SVO or VSO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mek",NA,NA,NA,"Mekens",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"men",NA,NA,NA,"Menomini",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"mgg",NA,NA,NA,"Mangghuer",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"mgu",NA,NA,NA,"Musgu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"mhu",NA,NA,NA,"Mbalanhu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"min",NA,NA,NA,"Minangkabau",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"mir",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+2023,"miy","miya1266","mkf","Miya","Miya","African Savannah","West - B (West Chadic)","No dominant order","SVO or VOS","SVO","flexible",NA,NA,NA,"Subject pronouns in different position"
+NA,"miz",NA,NA,NA,"Mizo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"mka",NA,NA,NA,"Mauka",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"mkd",NA,NA,NA,"Makonde",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mki",NA,NA,NA,"Mikasuki",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mlg",NA,NA,NA,"Malgwa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"mlm",NA,NA,NA,"Mlabri (Minor)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"mlu",NA,NA,NA,"Maleu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mme",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mmw",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mna",NA,NA,NA,"Muna",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+168,"mne","nort2952","nmu","Maidu (Northeast)","Maidu (Northeast)","California",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"mnm",NA,NA,NA,"Manam",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mns",NA,NA,NA,"Mansi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mny",NA,NA,NA,"Margany",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"mof",NA,NA,NA,"Mofu-Gudur",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"moh",NA,NA,NA,"Mohawk",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mon",NA,NA,NA,"Mon",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"moo",NA,NA,NA,"Mooré",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"mou",NA,NA,NA,"Moru",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mpr",NA,NA,NA,"Maipure",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+2984,"mpt","mian1256","mpt","Mian","Mian","Interior New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"mpu",NA,NA,NA,"Mpur",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mra",NA,NA,NA,"Mara",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mro",NA,NA,NA,"Moro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"msc",NA,NA,NA,"Muisca",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"msl",NA,NA,NA,"Masalit",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mtb",NA,NA,NA,"Matuumbi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mua",NA,NA,NA,"Makua",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"mum",NA,NA,NA,"Mumuye",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+2498,"mup","mwag1236","sur","Mupun","Mupun","African Savannah","West - A (West Chadic)","SVO",NA,"SVO","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"mus",NA,NA,NA,"Mussau",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"mut",NA,NA,NA,"Mutsun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"mwb",NA,NA,NA,"Manobo (Western Bukidnon)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"mzh",NA,NA,NA,"Mazatec (Huautla)",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nab",NA,NA,NA,"Nabak",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nag",NA,NA,NA,"Nagatman",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"naj",NA,NA,NA,"Neo-Aramaic (Arbel Jewish)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nak",NA,NA,NA,"Nakanai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"nal",NA,NA,NA,"Nalik",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"nam",NA,NA,NA,"Namia",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"nan",NA,NA,NA,"Nandi",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nbm",NA,NA,NA,"Ngbaka (Ma'bo)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ndb",NA,NA,NA,"Ndebele (in South Africa)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+661,"ndj","djee1236","djj","Ndjebbana","Ndjébbana","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"ndo",NA,NA,NA,"Ndonga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ndt",NA,NA,NA,"Ndut",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"nga",NA,NA,NA,"Nganasan",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ngj",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ngo",NA,NA,NA,"Ngoni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ngz",NA,NA,NA,"Ngizim",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"nha",NA,NA,NA,"Nhanda",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"nhh",NA,NA,NA,"Nahuatl (Huasteca)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+2145,"nhm","mich1245","ncl","Nahuatl (Michoacan)","Nahuatl (Michoacán)","Mesoamerica","Aztecan","SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"nhn",NA,NA,NA,"Nahuatl (North Puebla)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nia",NA,NA,NA,"Nias",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"nis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"niu",NA,NA,NA,"Niuean",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"nke",NA,NA,NA,"Nkem",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+200,"nmb","sout2994","nab","Nambikwara","Nambikuára (Southern)","NE South America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"nnd",NA,NA,NA,"Nend",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"non",NA,NA,NA,"Noni",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"nor",NA,NA,NA,"Norwegian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"nph",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"nse",NA,NA,NA,"Nsenga",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+654,"nsg","nisg1240","ncg","Nisgha","Nisgha","Alaska-Oregon",NA,"VSO",NA,"VSO","rigid",NA,NA,NA,"Subject pronouns in different position"
+NA,"nsn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"ntj",NA,NA,NA,"Ngaanyatjarra",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"nua",NA,NA,NA,"Nuaulu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nue",NA,NA,NA,"Nuer",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"nuu",NA,NA,NA,"Nuuchahnulth",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,"Subject clitics on variable host"
+640,"nwd","newa1246","new","Newar (Kathmandu)","Newar (Dolakha)","Indic",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+2233,"nya","nyaw1247","nyt","Nyawaygi",NA,"N Australia",NA,NA,NA,"free","free",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"nym",NA,NA,NA,"Nyamwezi",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+319,"nyn","nyig1240","nyh","Nyigina","Nyigina","N Australia",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"nyu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"obg",NA,NA,NA,"Ogbronuagum",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"obo",NA,NA,NA,"Obolo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ocu",NA,NA,NA,"Ocuilteco",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"oji",NA,NA,NA,"Ojibwa (Eastern)",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"olo",NA,NA,NA,"Olo",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+328,"ood","toho1245","ood","O’odham","O'odham","Basin and Plains","Sonoran","No dominant order",NA,"Vxx","flexible",NA,NA,NA,"Subject clitics on variable host"
+NA,"oro",NA,NA,NA,"Orokaiva",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ory",NA,NA,NA,"Orya",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"osa",NA,NA,NA,"Osage",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+498,"otm","mezq1235","ote","Otomi (Mezquital)","Otomí (Mezquital)","Mesoamerica",NA,"VOS",NA,"VOS","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"pam",NA,NA,NA,"Pame",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+2306,"pga","pila1245","plg","Pilagá","Pilagá","SE South America",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"pkn",NA,NA,NA,"Paakantyi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"pkt",NA,NA,NA,"Pokot",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"plh",NA,NA,NA,"Paulohi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"plk",NA,NA,NA,"Palikur",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"pno",NA,NA,NA,"Paiute (Northern)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"pog",NA,NA,NA,"Pogoro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"por",NA,NA,NA,"Portuguese",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"pra",NA,NA,NA,"Prasuni",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"pre",NA,NA,NA,"Pare",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"pul",NA,NA,NA,"Puluwat",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"pwn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"qum",NA,NA,NA,"Sipakapense",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"rem",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"rim",NA,NA,NA,"Rimi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"rit",NA,NA,NA,"Ritharngu",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"rny",NA,NA,NA,"Runyankore",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ron",NA,NA,NA,"Ron",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"rov",NA,NA,NA,"Roviana",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"rru",NA,NA,NA,"Runyoro-Rutooro",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ruk",NA,NA,NA,"Rukai (Tanan)",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"rum",NA,NA,NA,"Rumu",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"run",NA,NA,NA,"Runga",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"rut",NA,NA,NA,"Rutul",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+343,"sah","sahu1245","saj","Sahu","Sahu","Oceania",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"sak",NA,NA,NA,"Sakao",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sap",NA,NA,NA,"Sapuan",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"sar",NA,NA,NA,"Sare",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+347,"sdw","sand1273","sad","Sandawe","Sandawe","S Africa",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ser",NA,NA,NA,"Seri",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ses",NA,NA,NA,"Sesotho",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"sgb",NA,NA,NA,"Sougb",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sgl",NA,NA,NA,"Sengele",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sgu",NA,NA,NA,"Sangu",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"shm",NA,NA,NA,"Shambala",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"shp",NA,NA,NA,"Sahaptin (Northern)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"shu",NA,NA,NA,"Shuswap",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sid",NA,NA,NA,"Sidaama",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sio",NA,NA,NA,"Sio",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sis",NA,NA,NA,"Sisiqa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+442,"siu","sius1254","sis","Siuslaw (Lower Umpqua)","Siuslaw","Alaska-Oregon",NA,"No dominant order",NA,"Vxx","flexible",NA,NA,NA,"Subject affixes on verb"
+NA,"skm",NA,NA,NA,"Sukuma",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"skp",NA,NA,NA,"Selkup",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"slb",NA,NA,NA,"Saliba (in Papua New Guinea)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"slo",NA,NA,NA,"Slovene",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"snn",NA,NA,NA,"Soninke",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"so",NA,NA,NA,"So",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sob",NA,NA,NA,"Sobei",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"srb",NA,NA,NA,"Sorbian",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"src",NA,NA,NA,"Sarcee",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"sro",NA,NA,NA,"Siroi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"stn",NA,NA,NA,"Sotho (Northern)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+359,"sul","sulk1246","sua","Sulka","Sulka","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"taf",NA,NA,NA,"Taiof",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"taj",NA,NA,NA,"Tajik",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tar",NA,NA,NA,"Tariana",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+367,"tau","tauy1241","tya","Tauya","Tauya","Interior New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"tbl",NA,NA,NA,"Tabla",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"tbw",NA,NA,NA,"Tabwa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ten",NA,NA,NA,"Tennet",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tep",NA,NA,NA,"Tepehua (Tlachichilco)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tes",NA,NA,NA,"Teso",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tet",NA,NA,NA,"Tetela",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tgh",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tgk",NA,NA,NA,"Tigak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"tgn",NA,NA,NA,"Tugun",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tgr",NA,NA,NA,"Tigré",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"thy",NA,NA,NA,"Kuuk Thaayorre",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"tid",NA,NA,NA,"Tidore",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"tim",NA,NA,NA,"Timugon",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"tiv",NA,NA,NA,"Tiv",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+63,"tja","kumi1248","dih","Diegueño","Tiipay (Jamul)","Mesoamerica",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"tki",NA,NA,NA,"Tuki",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+363,"tkl","take1257","tkm","Takelma","Takelma","California",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"tkm",NA,NA,NA,"Turkmen",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tla",NA,NA,NA,"Tolai",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"tlo",NA,NA,NA,"Tobelo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+377,"tmc","timu1245","tjm","Timucua","Timucua","E North America",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+371,"tmr","temi1246","tea","Temiar","Temiar","Southeast Asia","Aslian","SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"tnc",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tnk",NA,NA,NA,"Tungak",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"tob",NA,NA,NA,"Toba",NA,NA,"No dominant order","SVO or VOS",NA,NA,NA,NA,NA,"Subject affixes on verb"
+382,"ton","tonk1249","tqw","Tonkawa","Tonkawa","Basin and Plains",NA,"No dominant order","SOV or SVO","SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"toz",NA,NA,NA,"Tonga (in Zambia)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tpn",NA,NA,NA,"Tepehuan (Northern)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Mixed"
+2544,"tps","sout2976","stp","Tepehuan (Southeastern)",NA,"Mesoamerica","Sonoran",NA,NA,"Vxx","flexible",NA,NA,NA,"Subject affixes on verb"
+NA,"trb",NA,NA,NA,"Teribe",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"trr",NA,NA,NA,"Tairora",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tsk",NA,NA,NA,"Tamashek",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tsn",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+1263,"tsz","dido1241","ddo","Tsez","Tsez","Greater Mesopotamia","Tsezic","SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"tte",NA,NA,NA,"Tutelo",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tus",NA,NA,NA,"Tuscarora",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+387,"tuv","tuvi1240","tyv","Tuva","Tuvan","Inner Asia","Northern Turkish","SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"tvo",NA,NA,NA,"Tatar",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"tvt",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"uby",NA,NA,NA,"Ubykh",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"uhi",NA,NA,NA,"Uradhi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ukr",NA,NA,NA,"Ukrainian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"uld",NA,NA,NA,"Uldeme",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"ura",NA,NA,NA,"Ura",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"url",NA,NA,NA,"Urak Lawoi'",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"urn",NA,NA,NA,"Urarina",NA,NA,"OVS",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"usr",NA,NA,NA,"Usarufa",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+441,"ute","utes1238","ute","Paiute (Southern)","Ute","Basin and Plains",NA,"No dominant order",NA,"SOV","rigid",NA,NA,NA,"Subject clitics on variable host"
+NA,"uyg",NA,NA,NA,"Uyghur",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"uzb",NA,NA,NA,"Uzbek",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"vai",NA,NA,NA,"Vai",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Obligatory pronouns in subject position"
+NA,"ven",NA,NA,NA,"Venda",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"wai",NA,NA,NA,"Wai Wai",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"wal",NA,NA,NA,"Walman",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"wat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"way",NA,NA,NA,"Wayampi",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"wed",NA,NA,NA,"Wedau",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"wir",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+412,"wiy","wiyo1248","wiy","Wiyot","Wiyot","California",NA,"No dominant order",NA,"free","free",NA,NA,NA,"Subject affixes on verb"
+NA,"wlf",NA,NA,NA,"Wolof",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"wlm",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"wma",NA,NA,NA,"West Makian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"wol",NA,NA,NA,"Woleaian",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"wrb",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"wrg",NA,NA,NA,"Warrgamay",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"wrk",NA,NA,NA,"Warekena",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+404,"wrl","warl1254","wbp","Warlpiri","Warlpiri","S Australia","Ngarrka","No dominant order",NA,"free","free",NA,NA,NA,"Subject clitics on variable host"
+402,"wrm","ware1253","wsa","Warembori","Warembori","N Coast New Guinea",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"wrw",NA,NA,NA,"Warrwa",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+400,"wry","wara1290","wrz","Waray","Waray (in Australia)","N Australia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"wth",NA,NA,NA,"Wathawurrung",NA,NA,"VOS",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+NA,"wya",NA,NA,NA,"Wyandot",NA,NA,"No dominant order",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"xho",NA,NA,NA,"Xhosa",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject pronouns in different position"
+NA,"yah",NA,NA,NA,"Yahgan",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Mixed"
+NA,"yal",NA,NA,NA,"Yale (Kosarek)",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"yao",NA,NA,NA,"Yao (in Malawi)",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"yar",NA,NA,NA,"Yareba",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+2779,"yel","yele1255","yle","Yelî Dnye","Yelî Dnye","S New Guinea",NA,"SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+103,"ygr","yaga1260","ygr","Hua","Yagaria","Interior New Guinea","Kamano-Yagaria","SOV",NA,"SOV","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"yin",NA,NA,NA,"Yindjibarndi",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+NA,"yng",NA,NA,NA,"Yingkarta",NA,NA,"SVO",NA,NA,NA,NA,NA,NA,"Subject clitics on variable host"
+424,"yuk","gang1267","gcd","Yukulta","Yukulta","N Australia",NA,"SVO",NA,"SVO","rigid",NA,NA,NA,"Subject clitics on variable host"
+NA,"yuw",NA,NA,NA,"Yuwaalaraay",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Optional pronouns in subject position"
+459,"zai","isth1244","zai","Zapotec (Isthmus)","Zapotec (Isthmus)","Mesoamerica",NA,"VSO",NA,"VSO","rigid",NA,NA,NA,"Subject affixes on verb"
+NA,"zap",NA,NA,NA,"Zapotec (Mitla)",NA,NA,"VSO",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
+NA,"zay",NA,NA,NA,"Zayse",NA,NA,"SOV",NA,NA,NA,NA,NA,NA,"Subject affixes on verb"
 NA,"ajg",NA,NA,NA,"Ajagbe",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,NA
 NA,"ami",NA,NA,NA,"Amis",NA,NA,"No dominant order","VSO or VOS",NA,NA,NA,NA,NA,NA
 NA,"avo",NA,NA,NA,"Avokaya",NA,NA,"No dominant order","SOV or SVO",NA,NA,NA,NA,NA,NA
