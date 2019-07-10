@@ -137,6 +137,49 @@ write.csv(discrepancies, file="discrepancies.csv",
 
 ```{r}
 
+# library
+library(treemap)
+ 
+# Build Dataset
+group=c(rep("Agree\nn=266",1),rep("Disagree\nn=38",3),rep("Disagree\n(Definitional)\nn=8",1))
+subgroup=c("","Same n=28","Same n=28","Unclear n=10", "")
+subsubgroup=c("", "No dominant order\nn=19", "Has dominant order\nn=9","", "")
+value=c(150,19,9,10,8)
+color=c("#f01d6a", "#00ceb6", "#00bfa9", "#01ae9a", "#fdd739")
+data=data.frame(group,subgroup,subsubgroup, value,color)
+
+```
+
+```{r}
+# treemap
+treemap(data,
+            index=c("group","subgroup", "subsubgroup"),
+            vSize="value",
+            vColor="color",
+            type="color",
+            border.col=c("white","white", "white"),
+            border.lwds=c(8,2,0),
+            fontcolor.labels=c("white","white", "white"),
+            algorithm="pivotSize",
+            align.labels=list(
+              c("left", "top"), 
+              c("right", "bottom"),
+              c("center", "center")
+            ),   
+            aspRatio=4/3,
+            overlap.labels=0.5,
+            inflate.labels=F,
+            bg.labels=c("transparent"),
+            ymod.labels = c(-0.08, 0.03, 0),
+            xmod.labels = c(0.08, -0.03, 0),
+            fontsize.labels = c(10,8,6),
+            title="Discrepancies between WALS and AUTOTYP"
+            )            
+
+```
+
+```{r}
+
 # These are just being saved in case we need them
 
 #autotyp_np_structure <- read.csv('../autotyp-data-master/data/NP_Structure.csv', na.strings='') %>% select(LID, NPMarking.binned4, NPWordOrder)  %>% filter(!is.na(NPMarking.binned4) & !is.na(NPWordOrder))
