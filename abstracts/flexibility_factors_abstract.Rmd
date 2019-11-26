@@ -1,0 +1,281 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: yes
+    fig_caption: yes
+  html_document: default
+always_allow_html: yes
+geometry: margin=0.8in
+documentclass: article
+header-includes:
+  - \setlength{\parindent}{4em}
+  - \setlength{\parskip}{0em}
+---
+
+\textbf{Defining constituent order flexibility from a typological perspective: WALS, AUTOTYP, and beyond}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- First we load in the various data frames.
+
+The Autotyp Register maps LIDS to language names and other data such as region and language family. The WALS Register serves a similar function for WALS' codes, but here all we need is the language name and Glottocode. -->
+
+```{r load_regs, include=FALSE}
+
+library(dplyr)
+library(kableExtra)
+
+autotyp_register <- read.csv('../autotyp-data-master/data/Register.csv', na.strings='') %>% 
+  rename(LanguageAutotyp = Language) %>%
+  select(LID, ISO639.3, Glottocode, SubBranch, Area, LanguageAutotyp, LanguageAlternativeNames)
+
+wals_register <- read.csv('../autotyp-data-master/data/WALS_register.csv', na.strings='') %>% 
+  rename(LanguageWALS = name, WALSCode = wals_code, Glottocode = glottocode) %>%
+  select(WALSCode, Glottocode)
+
+```
+
+ <!--Next, we need the feature data from Autotyp and WALS.
+
+Clause_word_order_adjusted.csv contains the original Autotyp data for clausal constituent order, with adjusted header names. For now, the relevant fields are WordOrderSPVBasicLex (the "canonical" constituent order—SOV, SVO, VSO, VOS, OSV, OVS or "free") and WordOrderSPVLexFlexible ("free", "flexible" or "rigid").-->
+
+```{r auto_order, include=FALSE}
+
+autotyp_clause_order <- read.csv('../autotyp-data-master/data/Clause_word_order_adjusted.csv', na.strings='') %>%
+  select(LID, WordOrderSPVBasicLex, WordOrderSPVLexFlexible)
+
+```
+
+<!-- From WALS, we are interested in (1) whether the language is head-marking, dependent-marking, dual-marking, or does not have marking; (2) whether person is marked on the verb—this may be agent-only, patient-only, both, or none; and (3) whether or not the language has cases.
+
+Regarding cases, languages are mapped to 1 or 0 depending on their coding in WALS. Language listed as having "No morphological case-marking" or "Exclusively borderline case-marking" are coded as 0; this is because we are interested in languages that mark *core* arguments. All other values are coded as 1. This is of course a very coarse heuristic, as languages like English, which is coded as having 2 cases, will receive a 1 despite our intuition that English on the whole does not case-mark. -->
+
+```{r load_data, include=FALSE}
+
+has_cases <- function(x){
+  code <- toString(x)
+  if(is.na(x)){ return(NA); }
+  if(code == 'No morphological case-marking'){ return(0)}
+  if(code == 'Exclusively borderline case-marking'){ return(0)}
+  return(1);
+}
+
+has_prodrop <- function(x){
+  code <- toString(x)
+  if(is.na(x)){ return(NA); }
+  if(code == 'Obligatory pronouns in subject position'){ return(0)}
+  if(code == 'Subject pronouns in different position'){ return(0)}
+  if(code == 'Mixed'){ return(2)}
+  return(1);
+}
+
+wals_dependent_head <- read.csv('../autotyp-data-master/data/WALS_marking.csv', na.strings='') %>% rename(WALSCode = ID, Marking = Name) %>% select(WALSCode, Marking)
+
+wals_person_marking <- read.csv('../autotyp-data-master/data/WALS_person_marking.csv', na.strings='') %>% rename(WALSCode = ID, VerbPersonMarking = Name) %>% select(WALSCode, VerbPersonMarking)
+
+wals_has_case <- read.csv('../autotyp-data-master/data/WALS_cases.csv', na.strings='') %>% rename(WALSCode = ID, NumCases = Name) %>% select(WALSCode, NumCases) %>% mutate(CaseMarking = mapply(function(x) has_cases(x), NumCases))
+
+wals_has_prodrop <- read.csv('../autotyp-data-master/data/WALS_prodrop.csv', na.strings='') %>% rename(WALSCode = ID, HasProdrop = Name) %>% select(WALSCode, HasProdrop)
+
+```
+
+<!-- Finally, we also want the WALS constituent order data for comparison with Autotyp. -->
+
+```{r wals_order, include=FALSE}
+
+wals_clause_order <- read.csv('../autotyp-data-master/data/WALS_clause_order.csv', na.strings='') %>% 
+  rename(WALSOrder = Name, WALSCode = ID, LanguageWALS = Language,  WALSReference = References) %>%
+  select(WALSCode, WALSOrder, LanguageWALS, WALSReference)
+
+wals_two_orders <- read.csv('../autotyp-data-master/data/WALS_two_orders.csv', na.strings='') %>% 
+  rename(WALSTwoOrder = Name, WALSCode = ID, LanguageWALS = Language,  WALSReference = References) %>%
+  select(WALSCode, WALSTwoOrder)
+
+```
+
+<!-- Now, we can merge the data based on LID and Glottocode; Glottocodes are shared between Autotyp and WALS and seem to be the most accurate way to combine the data (as dialects all receive the same ISO code, but different Glottocodes). For now, all merging is done as inner joins: we are only interested in languages with complete data. This may change later. -->
+
+```{r flexibility, include=FALSE}
+
+register <- merge(wals_register, autotyp_register, 'Glottocode')
+
+factors <- merge(wals_dependent_head, wals_person_marking, 'WALSCode')
+factors <- merge(wals_has_case, factors, 'WALSCode')
+
+flexibility_data <- merge(register, autotyp_clause_order, 'LID')
+flexibility_data <- merge(wals_clause_order, flexibility_data, 'WALSCode')
+flexibility_data <- merge(wals_two_orders, flexibility_data, 'WALSCode', all = TRUE)
+flexibility_data <- merge(wals_has_prodrop, flexibility_data, 'WALSCode', all = TRUE)
+flexibility_data <- merge(factors, flexibility_data, 'WALSCode', all.y = TRUE)
+
+flexibility_data_out <- flexibility_data %>% select(LID, WALSCode, Glottocode, ISO639.3, LanguageAutotyp, LanguageWALS, Area, SubBranch, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible, Marking, CaseMarking, VerbPersonMarking, HasProdrop) %>% group_by(LID)
+
+```
+
+<!-- In addition to our flexibility factors, we also want to know where Autotyp and WALS disagree, even if the other data is not complete. Thus, we used a full outer join for the "factors", and a partial inner join for the "order" data. -->
+
+```{r factors_full, include=FALSE}
+
+factors_full <- merge(wals_dependent_head, wals_person_marking, 'WALSCode', all = TRUE)
+factors_full <- merge(wals_has_case, factors_full, 'WALSCode', all = TRUE)
+
+flexibility_data_full <- merge(register, autotyp_clause_order, 'LID')
+flexibility_data_full <- merge(wals_clause_order, flexibility_data_full, 'WALSCode')
+flexibility_data_full <- merge(wals_two_orders, flexibility_data_full, 'WALSCode', all.y = TRUE)
+flexibility_data_full <- merge(factors, flexibility_data_full, 'WALSCode', all.y = TRUE)
+
+```
+
+<!-- To find discrepancies, we filter based on (1) Whether or not "WordOrderSPVBasicLex" and "WALSOrder" are the same; (2) Whether  "WordOrderSPVBasicLex" and "WALSOrder" are "No dominant order" and "free", respectively (making them effectively the same). -->
+
+```{r discrepancies, include=FALSE}
+
+discrepancies <- flexibility_data_full %>% select(LID, ISO639.3, WALSCode, Glottocode, LanguageAutotyp, LanguageWALS, LanguageAlternativeNames, Area, WALSOrder, WALSTwoOrder, WordOrderSPVBasicLex, WordOrderSPVLexFlexible) %>% filter((as.character(WordOrderSPVBasicLex) != as.character(WALSOrder)) & (WALSOrder != "No dominant order" | WordOrderSPVBasicLex != "free"))
+
+```
+
+How does constituent order vary cross-linguistically, and what drives this variation? Large-scale typological databases such as WALS (Dryer \& Haspelmath 2013) and AUTOTYP (Bickel et al. 2017) have focused on cataloging the dominant constituent orders of the world’s languages. However, languages vary not only in their primary order(s), but also in the number of additional orders speakers accept and the degree to which they accept them—their flexibility (Namboodiripad 2017). Here, we compare the criteria used by each database in determining (non)dominant constituent order and argue that expanding existing notions of flexibility can lead to important insights about this variation and its sources.
+
+Differences in how the databases determine category membership illustrate the challenges associated with categorical approaches to constituent order. WALS uses corpus data to determine \textsc{dominant word order}, which is defined as the order which occurs at least twice as often as the next most frequent order. If no corpus exists, a grammar is consulted instead. AUTOTYP, using grammars, additionally classifies languages as \textsc{rigid}, \textsc{flexible}, or \textsc{free}: rigid languages have exactly one basic order, flexible languages have a basic order and one or more structurally-conditioned orders, and free languages have no basic order. There was significant overlap in the classifications in these databases (N=266; 85%). Of the 46 non-overlapping languages, 28 (61%) constituted true disagreements, 8 (17%) were classified differently from each other due to differing definitions, and 10 (22%) were unclear due to the use of different language varieties.
+
+```{r discrepancy_chart, include=FALSE}
+
+# Build Dataset
+group=c(rep("Agree",1),rep("Disagree",2),rep("Disagree (Definitional)",1))
+subgroup=c("Yes","Yes","No","Yes")
+value=c(266,28,10,8)
+data=data.frame(group,subgroup,value)
+
+data %>%
+  kable(format = "latex",
+        booktabs = T,
+        label = "discrepancies",
+        col.names = c("Agree", "Languages match?", "n"),
+        caption = "Overlap between WALS and AUTOTYP",
+        ) %>% kable_styling(latex_options = c("hold_position")) %>% collapse_rows(columns = 1, valign = "middle")
+
+```
+
+These differences notwithstanding, the information in such databases can point us toward potential correlates of flexibility. We aggregated the constituent order data in WALS and AUTOTYP alongside a set of additional features we predicted would pattern with flexibility: grammatical case-marking, argument marking on the verb, the use of head- or dependent-marking, and the presence of pro-drop. In line with previous work, we found flexible languages to be somewhat more likely to have case marking, and rigid languages more likely to lack argument marking on the verb (Figures X and Y).
+
+However, manual inspection of AUTOTYP’s “rigid” category gave us pause: There is a sense in which many of these languages are not strictly rigid. For example, Russian is classified as a rigid SVO language, yet intuitively, it does not pattern with English, another rigid SVO language; all six orderings of major constituents are grammatical and attested in Russian (Bailyn 2012), while this is not the case in English. Likewise, many SOV languages—for example, Korean—which allow all of the logical constituent orders are classified as rigid SOV, even though they exhibit considerable (discourse-mediated) flexibility, as shown in experimental work (Namboodiripad, Kim, \& Kim 2019).
+
+```{r flex_charts_setup, include=FALSE} 
+
+library(ggplot2)
+library(tidyr)
+library(gridExtra)
+
+```
+
+```{r}
+marking_autotyp <- read.table(text="  Flexible	Free	Rigid	Total
+0	0 0	2	2
+1	4	15	49	68
+2	2	2	24	28
+3	2	4	16	22
+4	1	1	2	4", header=TRUE)
+
+marking_wals <- read.table(text="  ,No.Dom.O,Dom.O,Total
+0,0,2,2
+1,18,58,76
+2,2,30,32
+3,4,21,25
+4,1,3,4", sep=",", header=TRUE)
+
+case_autotyp <- read.table(text="	Flexible	Free	Rigid	Total
+0	2	8	44	54
+1	7	14	49	70", header=TRUE)
+
+case_wals <- read.table(text="	No.Dom.O	Dom.O	Total
+0	9	45	54
+1	17	53	70", header=TRUE)
+
+```
+
+```{r}
+
+# Add an id variable for the filled regions and reshape
+marking_autotyp.m <- marking_autotyp %>% 
+  mutate(ind = factor(row_number())) %>% 
+  gather(variable, value, -ind) %>% rename("ArgMarking"=ind, "Order"=variable, "Count"=value)
+
+# Add an id variable for the filled regions and reshape
+marking_wals.m <- marking_wals[-1] %>% 
+  mutate(ind = factor(row_number())) %>% 
+  gather(variable, value, -ind) %>% rename("ArgMarking"=ind, "Order"=variable, "Count"=value)
+
+marking.m <- bind_rows(list("WALS"=marking_wals.m, "AUTOTYP"=marking_autotyp.m), .id = 'Database')
+marking.m$Order <- as.factor(marking.m$Order)
+levels(marking.m$ArgMarking) <- list("A or P"=1, "Both A and P"=2, "Neither A nor P"=3, "Only A"=4, "Only P"=5)
+#levels(marking.m$Order) <- list("No.D.O)
+
+# Add an id variable for the filled regions and reshape
+case_autotyp.m <- case_autotyp %>% 
+  mutate(ind = factor(row_number())) %>% 
+  gather(variable, value, -ind) %>% rename("CaseMarking"=ind, "Order"=variable, "Count"=value)
+
+# Add an id variable for the filled regions and reshape
+case_wals.m <- case_wals %>% 
+  mutate(ind = factor(row_number())) %>% 
+  gather(variable, value, -ind) %>% rename("CaseMarking"=ind, "Order"=variable, "Count"=value)
+
+case.m <- bind_rows(list("WALS"=case_wals.m, "AUTOTYP"=case_autotyp.m), .id = 'Database')
+case.m$Order <- as.factor(case.m$Order)
+levels(case.m$CaseMarking) <- list("No Case Marking"=1, "Case Marking"=2)
+
+```
+
+```{r, include=FALSE}
+
+library(ghibli)
+library(wesanderson)
+
+```
+
+```{r}
+
+marking.g <- ggplot(marking.m, aes(x=Order, y =Count, fill=ArgMarking)) + 
+    geom_bar(position = "fill",stat = "identity") +
+    scale_y_continuous(labels = scales::percent_format()) + 
+    labs(title="", x="Constituent Order Flexibility", y="", fill="Argument Marking") +
+    scale_fill_manual(values = ghibli_palette("LaputaMedium")[c(1,4,5,6,7)], labels=c("Agent or Patient", "Both", "Neither", "Only Agent", "Only Patient")) + 
+    facet_grid(.~Database, scales = "free", space = "free")
+
+case.g <- ggplot(case.m, aes(x=Order, y =Count, fill=CaseMarking)) + 
+    geom_bar(position = "fill",stat = "identity") +
+    scale_y_continuous(labels = scales::percent_format()) + 
+    labs(title="", x="Constituent Order Flexibility", y="", fill="Case Marking") +
+    scale_fill_manual(values = ghibli_palette("LaputaMedium")[c(4,6)], labels=c("Case Marking", "No Case Marking")) +
+    facet_grid(.~Database, scales = "free", space = "free")
+
+marking.g
+case.g
+
+```
+
+```{r flex_marking, echo=FALSE, fig.cap="Argument marking on the verb vs. flexibility WALS and AUTOTYP", fig.align='left', fig.show='hold'}
+
+marking.g <- ggplot(marking.m, aes(x=Order, y =Count, fill=ArgMarking)) + 
+    geom_bar(position = "fill",stat = "identity") +
+    scale_y_continuous(labels = scales::percent_format()) + 
+    labs(title="Percentage of languages with different types of argument marking", x="", y="", fill="Argument Marking") +
+    scale_fill_ghibli_d("LaputaMedium", direction=-1, labels=c("Agent or Patient", "Both", "Neither", "Only Agent", "Only Patient")) + 
+    facet_grid(.~Database, scales = "free", space = "free")
+
+case.g <- ggplot(case.m, aes(x=Order, y =Count, fill=CaseMarking)) + 
+    geom_bar(position = "fill",stat = "identity") +
+    scale_y_continuous(labels = scales::percent_format()) + 
+  labs(title="Percentage of languages with and without case marking", x="", y="", fill="Case Marking") +
+    scale_fill_ghibli_d("LaputaMedium", direction=-1, labels=c("No Case Marking", "Case Marking")) + 
+    facet_grid(.~Database, scales = "free", space = "free")
+
+g <- gridExtra::arrangeGrob(marking.g, case.g, nrow=2, ncol=1, top="", bottom=grid::textGrob("Constituent Order Flexibility"), left=grid::textGrob("Percentage", rot=90))
+grid::grid.newpage()
+grid::grid.draw(g)
+```
+
+We conclude with a comparison of three languages classified as SOV flexible (Avar, Korean, and Malayalam) which nonetheless exhibit subtle differences in flexibility. We propose that supplementing existing discrete categories such as “flexible” and “rigid” with a gradient notion of flexibility increases descriptive power and, with enough data, could improve correlational investigations of constituent order typology.
