@@ -2,7 +2,7 @@
 
 This file contains all languages for which WALS and AUTOTYP use discrepant naming conventiond, together with their ISO639.3 code, Glottocode, WALS code, and any alternate names. A pair of entries in WALS and Autotyp are considered discrepant if they share the same ISO639.3, but are referred to by different names in WALS and AUTOTYP.
 
-# flexibility_data.csv
+## flexibility_data.csv
 
 Aggregated flexibility information from WALS and AUTOTYP.
 
@@ -15,6 +15,6 @@ Aggregated flexibility information from WALS and AUTOTYP.
 - VerbPersonMarking: Which arguments are marked on the verb, if any, according to AUTOTYP.
 - HasProdrop: Which elements can be pro-dropped, according to AUTOTYP.
 
-# word_order_defs.csv
+## word_order_defs.csv
 
 Key for the meaning of different word-order categories in AUTOTYP.
